@@ -1,5 +1,6 @@
 import React from 'react'
-import '../App.css';
+import '../assets/Nav.css';
+import imager from '../images/logo-placeholder-1.png';
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +8,7 @@ export default function Nav() {
     return (
         <div>
             <nav className = "nav-bar">
-                <h3>Logo</h3>
+                <img src= {imager} alt="temp-logo" />
                 <ul className="nav-links">
                     <Link to = "/Home">
                         <li>Home</li>
