@@ -1,6 +1,24 @@
 Kanban board : https://trello.com/cssgwebsite
 
 
+## Pull Requests
+We use pull requests (PRs) to make sure features are up to specification before deploying them, and as a learning opportunity for you to look at other's code to enforce good design!
+#### Creating a PR
+- Push the changes from your local feature branch to your remote feature branch
+- On Github, select your feature branch from the "branches" dropdown and then click the Pull request button
+- Leave a comment describing what changes you made. If you made a UI change, it is helpful to include a screenshot of that change
+- Add at least two reviewers to the pull request. **PRs are required to have two reviews of approval before being merged into master**
+- Click the Create pull request button
+- Fix any merge conflicts and make requested changes from reviewers as necessary
+- Merge your branch into master once two people have approved your changes
+
+#### Reviewing a PR
+- Read over the changed code to check for correctness, readability, good style, etc.
+- Pull the feature branch and run the project on your machine
+- Ensure the feature looks correct and behaves correctly on the desktop and mobile sites. Make sure other features of the website haven't been accidentally changed and that no bugs have been introduced
+- Request changes if necessary or leave comments asking questions
+- Approve the pull request when the feature is up to specification
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
