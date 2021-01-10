@@ -1,4 +1,3 @@
-Kanban board : https://trello.com/cssgwebsite
 
 
 ## Pull Requests
