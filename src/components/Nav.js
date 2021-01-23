@@ -16,11 +16,11 @@ export default function Nav() {
                     <Link to = "/Projects">
                         <li>Projects</li>
                     </Link>
-                    <Link to = "/Officers">
-                        <li>Officers</li>
-                    </Link>
                     <Link to = "/Calendar">
                         <li>Calendar</li>
+                    </Link>
+                    <Link to = "/Officers">
+                        <li>Officers</li>
                     </Link>
                     <Link to = "/Contact">
                         <li>Contact Us</li>
