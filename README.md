@@ -9,10 +9,49 @@ We use pull requests (PRs) and Github Issues to make sure they are are inline wi
  **PRs are required to have a review of approval from Srirag before being merged into master.**
 - Click the Create pull request button
 - Fix any merge conflicts and make requested changes from reviewers as necessary
-- Merge your branch into master once two people have approved your changes
+- Merge your branch into master once Srirag approved your changes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## How to get started
+Clone the repository locally using the command:
+
+        $ git clone "https://github.com/srirag-vuppala/zengarden.git"
+
+Create your own branch to do your development:
+
+        $ git branch <name of your new branch>   *brackets not required *include your name in your branch
+
+To move to the new branch, you can run:
+
+        $ git checkout <name of your new branch>  *brackets not required
+
+After you're done with commiting locally run this command to push to the repository as a branch:
+
+        $ git push -u origin <name of your local new branch>
+        
+
+ 
+## Helpful tips 
+- To run the website for testing purposes:
+
+        $ npm install 
+        $ npm start
+
+
+- To git add all the files use :
+
+        $ git add -A
+
+- To git commit:
+
+        $ git commit -m "Your commit message"
+        
+- If you want to check the list of branches, simply run:
+
+        $ git branch
+        
+        
 ## Available Scripts
 
 In the project directory, you can run:
