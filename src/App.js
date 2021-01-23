@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
-import Home from './components/Home';
+import WhatWeDo from './components/WhatWeDo';
 import Projects from './components/Projects';
 import Nav from './components/Nav';
 import Contact from './components/Contact';
-import Team from './components/Team';
+import Officers from './components/Officers';
+import Calendar from './components/Calendar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 
 
@@ -16,10 +17,11 @@ function App() {
       <div className="App">
         <Nav />
         <Switch>
-          <Route exact path="/Team" component={Team}/>
+          <Route exact path="/Officers" component={Officers}/>
+          <Route exact path="/Calendar" component={Calendar}/>
           <Route exact path="/Projects" component={Projects}/>
           <Route exact path="/Contact" component={Contact}/>
-          <Route path="/" component={Home}/>
+          <Route path="/" component={WhatWeDo}/>
         </Switch>
       </div>
     </Router>
