@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## How to get started
 Clone the repository locally using the command:
 
-        $ git clone "https://github.com/srirag-vuppala/zengarden.git"
+        $ git clone "https://github.com/CSSGCalPoly/club-website.git"
 
 Create your own branch to do your development:
 
