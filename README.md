@@ -5,7 +5,8 @@ We use pull requests (PRs) and Github Issues to make sure they are are inline wi
 #### Creating a PR
 - Push the changes from your local feature branch to your remote feature branch
 - On Github, select your feature branch from the "branches" dropdown and then click the Pull request button
-- Leave a comment describing what changes you made. If you made a UI change, it is helpful to include a screenshot of that change
+- Leave a comment describing what changes you made. 
+- **If you made a UI change, it is helpful to include a screenshot of that change**
 - **PRs are required to have a review of approval from Srirag before being merged into master.**
 - Click the Create pull request button
 - Fix any merge conflicts and make requested changes from reviewers as necessary
