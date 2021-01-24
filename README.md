@@ -20,7 +20,7 @@ Clone the repository locally using the command:
 
 Create your own branch to do your development:
 
-        $ git branch <name of your new branch>   *brackets not required *include your name in your branch
+        $ git branch <name of your new branch>   *brackets not required
 
 To move to the new branch, you can run:
 
