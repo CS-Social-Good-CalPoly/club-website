@@ -9,22 +9,12 @@ export default function Nav() {
         <div>
             <nav className = "nav-bar">
                 <img src= {imager} alt="temp-logo" />
-                <ul className="nav-links">
-                    <Link to = "/WhatWeDo">
-                        <li>What We Do</li>
-                    </Link>
-                    <Link to = "/Projects">
-                        <li>Projects</li>
-                    </Link>
-                    <Link to = "/Calendar">
-                        <li>Calendar</li>
-                    </Link>
-                    <Link to = "/Officers">
-                        <li>Officers</li>
-                    </Link>
-                    <Link to = "/Contact">
-                        <li>Contact Us</li>
-                    </Link>
+                 <ul className="nav-links">
+                    <li><Link to ="/WhatWeDo">What We Do</Link></li>
+                    <li><Link to ="/Projects">Project</Link></li>
+                    <li><Link to ="/Calendar">Calendar</Link></li>
+                    <li><Link to ="/Officers">Officers</Link></li>
+                    <li><Link to ="/Contact">Contact Us</Link></li>
                 </ul>
             </nav>
         </div>
