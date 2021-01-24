@@ -39,9 +39,9 @@ After you're done with commiting locally run this command to push to the reposit
         $ npm start
 
 
-- To git add all the files use :
+- To go through the changes you're making before commiting, run :
 
-        $ git add -A
+        $ git add -p
 
 - To git commit:
 
