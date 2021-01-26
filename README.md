@@ -1,16 +1,19 @@
 
 
 ## Pull Requests and Github Issues
-We use pull requests (PRs) and Github Issues to make sure they are are inline with our scrum board and to make sure features are up to specification before deploying them, and as a learning opportunity for you to look at other's code to enforce good design!
+We use pull requests (PRs) and Github Issues to make sure they are are inline with our scrum board and to make sure features are up to specification before deploying them!
 #### Creating a PR
-- Push the changes from your local feature branch to your remote feature branch
+- Push the changes from your local feature branch to your remote feature branch. Check the How to get started section to see how you should set up the local feature branch.
 - On Github, select your feature branch from the "branches" dropdown and then click the Pull request button
-- Leave a comment describing what changes you made. 
-- **If you made a UI change, it is helpful to include a screenshot of that change**
+- Leave a comment describing what changes you made: 
+-       **If you made a UI change, it is helpful to include a screenshot of that change**
+- Make sure to add Srirag as a reviewer!
 - **PRs are required to have a review of approval from Srirag before being merged into master.**
 - Click the Create pull request button
-- Fix any merge conflicts and make requested changes from reviewers as necessary
-- Merge your branch into master once Srirag approved your changes
+- Update your Issue Card on the SCRUM board. Making sure to link the pull request and moving it to in review.
+- Fix any merge conflicts and make requested changes from reviewer(Srirag) as necessary.
+- Merge your branch into master once reviewer(Srirag) approved your changes
+Extract inspired from Celebrate
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
