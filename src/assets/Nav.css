@@ -4,14 +4,41 @@
     justify-content: space-around;
     align-items: center;
     min-height: 6vh;
-    background: #11499B;
-    color: white;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  /* x, y, blur */
   }
   
   .nav-links{
-    width: 40%;
+    /*width: 40%;*/
+    width: 50%;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
+    font-weight: 700; 
+    margin: 0;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color:#023E8A;
+  }
+
+  .nav-bar img {
+    height: 20%;
+  }
+
+  .logo {
+    height: 110px;
+    width: 110px;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+  }
+
+  @media only screen and (max-width: 900px) {
+    
+    .nav-links{
+      width: 70%;
+    }
+
   }
