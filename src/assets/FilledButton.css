@@ -5,6 +5,7 @@ button.btn-filled {
 }
 
 button.btn-filled a {
+  font-family: 'Proxima Nova';
   text-decoration: none;
   color: #ffffff;
   font-size: 25px;
