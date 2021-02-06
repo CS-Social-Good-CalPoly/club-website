@@ -6,6 +6,7 @@
     /*min-height: 6vh;*/
     height: 70px;
     background: white;
+    margin: auto -4vh auto;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  /* x, y, blur */
   }
   
@@ -29,7 +30,7 @@
   .nav-links li {
     text-decoration: none;
     color:#023E8A;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .nav-bar img {

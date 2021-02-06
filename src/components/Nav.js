@@ -10,6 +10,7 @@ export default function Nav() {
             <nav className = "nav-bar">
                 <img className="logo" src= {imager} alt="temp-logo" /> 
                 <ul className="nav-links">
+                    <li></li>
                     <li><Link to ="/WhatWeDo">What We Do</Link></li>
                     <li><Link to ="/Projects">Project</Link></li>
                     <li><Link to ="/Calendar">Calendar</Link></li>
