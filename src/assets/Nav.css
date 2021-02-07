@@ -3,68 +3,51 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /*min-height: 6vh;*/
     height: 70px;
     background: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  /* x, y, blur */
+    overflow: auto;
   }
   
   .nav-links{
-    width: 70%;
+    width: 60%;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    /* justify-content: space-around; */
-    /* align-items:flex-end; */
     font-weight: 700; 
-    margin: 0;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 
   .nav-links a {
     text-decoration: none;
     color:#023E8A;
-    padding-left: 80px;
   }
 
   .nav-links li {
     text-decoration: none;
     color:#023E8A;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .nav-bar img {
-    width: 132px;
-    height: 28px;
+    margin-right: 80px;
+    width: 105px;
+    height: 22px;
   } 
 
   /* ------------- media queries ------------- */
 
-  @media only screen and (max-width: 1350px) {
-    
+  @media only screen and (max-width: 1000px) {
     .nav-links{
-      padding-left: 0;
-      justify-content: space-around;
+      width: 65%;
+      margin-left: 10px;
+      margin-right: 10px;
     }
-
-    .nav-links li {
-      font-size: 20px;
-    }
-
     .nav-bar img {
-      width: 105px;
-      height: 22px;
+      margin-right: 30px;
     } 
-
   }
-
-  @media only screen and (max-width: 1200px) {
-    
-    .nav-links{
-      width: 85%;
-    }
-
   
-  /* ------------- should probably add a hamburger menu at 990px ------------- */
-
-
-  }
+ 
+  /* ------------- should probably add a hamburger menu at 920 px ------------- */
