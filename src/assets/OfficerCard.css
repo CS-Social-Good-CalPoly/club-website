@@ -17,8 +17,10 @@
 
 #position {
     font-style: italic;
+    font-size: 18px;
 }
 
 #email {
     opacity: 0.8;
+    margin-top: 25px;
 }
