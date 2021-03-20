@@ -1,0 +1,26 @@
+.card {
+    padding: 15px;
+    
+}
+
+#officer-pic {
+    width: auto;
+    max-width: 250px;
+    height: auto;
+    max-height: 250px;
+}
+
+#name, #position, #email {
+    text-align: left;
+    color: #023E8A;
+}
+
+#position {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#email {
+    opacity: 0.8;
+    margin-top: 25px;
+}
