@@ -1,6 +1,5 @@
-.card {
+.officer-card {
     padding: 15px;
-    
 }
 
 #officer-pic {
@@ -13,6 +12,7 @@
 #name, #position, #email {
     text-align: left;
     color: #023E8A;
+    
 }
 
 #position {
@@ -22,5 +22,6 @@
 
 #email {
     opacity: 0.8;
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    margin-top: 5px;
 }

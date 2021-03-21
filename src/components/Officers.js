@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/Officers.css';
-import Card from './OfficerCard';
+import OfficerCard from './OfficerCard';
 import srirag_photo from '../images/srirag.jpg';
 
 // export default function Officers() {
@@ -15,8 +15,7 @@ const Officers = () => {
     return (
         <div>
             <h3>Part - 1</h3>
-            <Card link='www.example.com' url= {srirag_photo} name="Srirag Vuppala" title="Community Officer" email="srirag@gmail.com" alt="Srirag"></Card>
-            {/* <img className="logo" src= {srirag_photo} alt="temp-logo" />  */}
+            <OfficerCard link='www.example.com' url= {srirag_photo} name="Srirag Vuppala" title="Community Officer" email="srirag@gmail.com" alt="Photo of Srirag" />
         </div>
     )
 }
@@ -33,8 +32,6 @@ const final = () => {
         <>
         <Officers />
         <Bleh />
-        <Card />
-
         </>
     )
     

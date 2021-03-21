@@ -10,9 +10,9 @@ const ProjectCard = ({title, techStack, url, description}) => {
    *  description: A brief description of the project
    */
   return (
-    <div className="card">
+    <div className="project-card">
       <img src={url} alt="project"/>
-      <div className="card-body">
+      <div className="project-card-body">
         <h2>{title}</h2>
         <h3>{techStack}</h3>
         <p>{description}</p>
