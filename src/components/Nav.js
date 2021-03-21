@@ -8,7 +8,7 @@ export default function Nav() {
     return (
         <div>
             <nav className = "nav-bar">
-                <img className="logo" src= {imager} alt="temp-logo" /> 
+                <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {imager} alt="temp-logo" /></Link></li> 
                 <ul className="nav-links">
                     <li><Link to ="/WhatWeDo">What We Do</Link></li>
                     <li><Link to ="/Projects">Project</Link></li>
