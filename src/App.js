@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import WhatWeDo from './components/WhatWeDo';
-import Projects from './components/Projects';
-import Nav from './components/Nav';
-import Contact from './components/Contact';
-import Officers from './components/Officers';
-import Calendar from './components/Calendar';
+import WhatWeDo from './components/WhatWeDo/WhatWeDo';
+import Projects from './components/Projects/Projects';
+import Nav from './components/Shared_Components/Nav';
+import Contact from './components/Contact_Us/Contact';
+import Officers from './components/Officers/Officers';
+import Calendar from './components/Calendar/Calendar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 
 

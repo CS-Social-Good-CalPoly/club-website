@@ -1,4 +1,17 @@
+## Quick Points:
+- **Make sure your CSS selectors are unique so it would avoid this issue** #36
+- **Don't forget that we have a mobile Figma, so make sure you are implementing media queries to appropriately scale the website**
+- **Make sure your CSS selectors are unique so it would avoid this issue** #36
+- While making your pull request make sure to add in screenshots of what you implemented along with any helpful notes.
 
+## Quick Links:
+Links
+---
+- [The actual figma to reference](https://www.figma.com/file/i3QlbebnZaaKwrQP2x5qe3/Final-Website-Design?node-id=0%3A1) 
+- [The mobile figma to reference](https://www.figma.com/file/i3QlbebnZaaKwrQP2x5qe3/Final-Website-Design?node-id=509%3A343)
+- [How to change css depending on screen size](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+- [What is Responsive](https://medium.com/@mustwin/responsive-react-9b56d63c4edc)
+- [Article](https://reactjs.org/docs/conditional-rendering.html) explaining conditionally rendering 
 
 ## Pull Requests and Github Issues
 We use pull requests (PRs) and Github Issues to make sure they are are inline with our scrum board and to make sure features are up to specification before deploying them!

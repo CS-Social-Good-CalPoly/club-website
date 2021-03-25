@@ -1,15 +1,8 @@
 import React from 'react'
-import '../assets/Officers.css';
+import '../../assets/Officers/Officers.css';
 import OfficerCard from './OfficerCard';
-import srirag_photo from '../images/srirag.jpg';
+import srirag_photo from '../../images/srirag.jpg';
 
-// export default function Officers() {
-//     return (
-//         <div>
-//             <h3>Hello Officers</h3>
-//         </div>
-//     )
-// }
 
 const Officers = () => {
     return (
