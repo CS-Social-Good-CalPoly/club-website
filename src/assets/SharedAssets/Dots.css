@@ -1,0 +1,9 @@
+.white-dots svg ellipse{
+  fill: #fff;
+  fill-opacity: 0.63;
+}
+
+.light-blue-dots svg ellipse {
+  fill: #90E0EF;
+  fill-opacity: 1;
+}
