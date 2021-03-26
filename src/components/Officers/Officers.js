@@ -8,7 +8,7 @@ const Officers = () => {
     return (
         <div>
             <h3>Part - 1</h3>
-            <OfficerCard link='www.example.com' url= {srirag_photo} name="Srirag Vuppala" title="Community Officer" email="srirag@gmail.com" alt="Photo of Srirag" />
+            <OfficerCard link='www.example.com' url= {srirag_photo} name="Srirag Vuppala" title="Community Officer" email="@gmail.com" alt="Photo of Srirag" />
         </div>
     )
 }
