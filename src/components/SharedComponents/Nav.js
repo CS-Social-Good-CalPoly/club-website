@@ -20,7 +20,7 @@ export default function Nav() {
                     <li><Link to ="/Contact">Contact Us</Link></li>
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
-                <li></li>
+                {/* <li></li> */}
                 <li onClick={()=>setOpen(!open)} style= {{ 'list-style' : 'none'}}><img className="burger" src= {menu} alt="menu" /></li> 
             </nav>
         </div>

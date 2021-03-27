@@ -81,12 +81,13 @@ nav .nav-links a {
 @media screen and (max-width: 640px){
 
   .burger {
+    transform: scale(2);
     width: 400px;
     display: block;
   }
 
   .logo {
-    margin-right: 50px;
+    margin-right: -3rem;
   }
 
   nav .nav-links {
@@ -104,12 +105,13 @@ nav .nav-links a {
     /*transition: 0.5s ease-in-out;*/
     border-radius: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
+    overflow: hidden;
   }
 
-  nav .logo {
-    margin-right: 200px;
-    /*background-color: aliceblue;*/
-  }
+  /* nav .logo {
+    margin-right: -3rem;
+    background-color: aliceblue;
+  } */
 
   nav .burger {
     margin-left: 200px;
