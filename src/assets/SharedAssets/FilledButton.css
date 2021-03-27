@@ -5,8 +5,19 @@ button.btn-filled {
 }
 
 button.btn-filled a {
-  font-family: 'Proxima Nova';
   text-decoration: none;
   color: #ffffff;
   font-size: 25px;
+}
+
+@media screen and (max-device-width: 640px){
+  button.btn-filled {
+    border-radius: 5px;
+    padding: .8em 1.8em;
+  }
+
+  button.btn-filled a {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
 }
