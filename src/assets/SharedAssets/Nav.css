@@ -77,7 +77,7 @@ nav .burger {
 
 /* Mobile Phone Specific CSS should be placed here */
 
-@media all and (min-device-width : 0px) and  (max-device-width : 539px) {
+@media screen and (min-width : 0px) and  (max-width : 539px) {
   
   nav .burger {
     transform: scale(2);
@@ -124,7 +124,7 @@ nav .burger {
 
 }
 
-@media all and (min-device-width : 540px) and  (max-device-width : 700px) {
+@media screen and (min-width : 540px) and  (max-width : 700px) {
 
   nav .burger {
     transform: scale(2);
