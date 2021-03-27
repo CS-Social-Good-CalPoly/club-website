@@ -1,0 +1,31 @@
+.sponsors-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors h2 {
+  color: #023E8A;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.sponsors img {
+  width: 126px;
+  height: auto;
+  margin: 5rem;
+}
+
+@media screen and (max-device-width: 640px){
+  .sponsors-container {
+    flex-direction: column;
+  }
+
+  .sponsors img {
+    margin: 1.5rem;
+  }
+
+  .sponsors h2 {
+    font-size: 1rem;
+  }
+}
