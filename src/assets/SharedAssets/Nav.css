@@ -1,54 +1,171 @@
-.nav-bar{
-  font-family: 'Poppins';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  text-decoration: none;
+  color:#023E8A;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 70px;
-  background: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  /* x, y, blur */
-  overflow: auto;
-}
-
-.nav-links{
-  width: 60%;
-  list-style: none;
+  list-style-type: none;
+  font-family: 'Poppins';
   display: flex;
-  justify-content: space-between;
-  font-weight: 700; 
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 1rem;
-}
-
-.nav-links a {
-  text-decoration: none;
-  color:#023E8A;
-}
-
-.nav-links li {
-  text-decoration: none;
-  color:#023E8A;
-  font-size: 20px;
+  height: 70px;
+  overflow: auto;
+  overflow-x: hidden;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
 }
 
 .nav-bar img {
-  margin-right: 80px;
-  width: 105px;
-  height: 22px;
+  width: 100px;
+  height: 20px;
+  margin-left: 30px;
 } 
 
-/* ------------- media queries ------------- */
-
-@media only screen and (max-width: 1000px) {
-  .nav-links{
-    width: 65%;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .nav-bar img {
-    margin-right: 30px;
-  } 
+nav .logo {
+  margin-right: 200px;
 }
 
+nav .nav-links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-left: 70px;
+  width: 60%;
+  list-style: none;
+  font-weight: 800;
+}
 
-/* ------------- should probably add a hamburger menu at 920 px ------------- */
+nav .nav-links a {
+  text-decoration: none;
+  color:#023E8A;
+}
+
+nav .burger {
+  display: none;
+  cursor: pointer;
+}
+
+/* Desktop Specific CSS should be placed here */
+@media screen and (max-width: 900px){
+
+  nav .logo {
+    margin-right: 2rem;
+  }
+
+  nav .nav-links {
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+  }
+
+}
+
+/* Mobile Phone Specific CSS should be placed here */
+
+@media screen and (min-width : 0px) and  (max-width : 539px) {
+  
+  nav .burger {
+    transform: scale(2);
+    width: 40px;
+    display: block;
+  }
+
+  nav .logo {
+    margin-left: .5rem;
+  }
+
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    margin-top: 4px;
+    top: 70px;
+    right: 0;
+    height: min-content;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 45%;
+    transform: translateY(-500px);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
+  }
+
+  nav .nav-links li {
+    text-align: right;
+    padding: 15px 20px 15px 15px;
+    border-bottom: 2px solid #023d8a10;
+    font-weight: 800;
+    font-size: 15px;
+  }
+
+  nav .nav-links li:first-of-type {
+    margin-top: -18px;
+  }
+
+  nav .nav-links li:last-of-type {
+    margin-bottom: -15px;
+    border-bottom: 0px solid #023d8a10;
+  }
+
+}
+
+@media screen and (min-width : 540px) and  (max-width : 700px) {
+
+  nav .burger {
+    transform: scale(2);
+    width: 40px;
+    display: block;
+  }
+
+  nav .logo {
+    margin-right: 8rem;
+    margin-left: 0;
+  }
+
+  nav .nav-links {
+    position: absolute;
+    display: block;
+    margin-top: 4px;
+    top: 70px;
+    right: 0;
+    height: min-content;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 40%;
+    transform: translateY(-500px);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
+  }
+
+  nav .nav-links li {
+    text-align: right;
+    padding: 15px 20px 15px 15px;
+    border-bottom: 2px solid #023d8a10;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  nav .nav-links li:first-of-type {
+    margin-top: -18px;
+  }
+  
+  nav .nav-links li:last-of-type {
+    margin-bottom: -15px;
+    border-bottom: 0px solid #023d8a10;
+  }
+
+}
