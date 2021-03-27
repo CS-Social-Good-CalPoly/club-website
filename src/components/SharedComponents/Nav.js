@@ -21,7 +21,7 @@ export default function Nav() {
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}
-                <li onClick={()=>setOpen(!open)} style= {{ 'list-style' : 'none'}}><img className="burger" src= {menu} alt="menu" /></li> 
+                <li style= {{ 'list-style' : 'none'}}><img onClick={()=>setOpen(!open)} className="burger" src= {menu} alt="menu" /></li> 
             </nav>
         </div>
     )

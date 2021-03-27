@@ -81,13 +81,12 @@ nav .burger {
   
   nav .burger {
     transform: scale(2);
-    width: 200px;
+    width: 40px;
     display: block;
-    padding-left: 2rem;
   }
 
   nav .logo {
-    margin-left: 3.2rem;
+    margin-left: .5rem;
   }
 
   nav .nav-links {
@@ -128,9 +127,8 @@ nav .burger {
 
   nav .burger {
     transform: scale(2);
-    width: 200px;
+    width: 40px;
     display: block;
-    padding-left: 5rem;
   }
 
   nav .logo {
