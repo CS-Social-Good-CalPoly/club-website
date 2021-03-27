@@ -1,0 +1,13 @@
+/* 
+CSS that applies to both Mobile and Desktop sizes should be put here
+*/
+
+/* Mobile Phone Specific CSS should be placed here */
+@media screen and (max-device-width: 640px){
+    /* some CSS here */
+}
+
+/* Desktop Specific CSS should be placed here */
+@media screen and (min-width: 641px){
+    /* some CSS here */
+}
