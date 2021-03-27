@@ -5,8 +5,19 @@ button.btn-unfill {
 }
 
 button.btn-unfill a {
-  font-family: 'Proxima Nova';
   text-decoration: none;
   color: #023E8A;
   font-size: 25px;
+}
+
+@media screen and (max-device-width: 640px){
+  button.btn-unfill {
+    border-radius: 5px;
+    padding: .8em 1.8em;
+  }
+
+  button.btn-unfill a {
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
 }
