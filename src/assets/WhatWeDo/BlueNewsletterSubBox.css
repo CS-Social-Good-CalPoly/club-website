@@ -1,0 +1,7 @@
+.blue-newsletter {
+  background: #CAF0F8;
+}
+
+.blue-newsletter div {
+  z-index: -1;
+}
