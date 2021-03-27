@@ -1,0 +1,41 @@
+.whiteblock {
+  display: flex;
+}
+
+.whiteblock img {
+  max-width: 685px;
+}
+
+.whiteblock-img {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.whiteblock-cta {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-device-width: 640px){
+  .whiteblock {
+    flex-direction: column-reverse;
+  }
+
+  
+.whiteblock img {
+  max-width: 90%;
+  margin-bottom: 10px;
+}
+
+.whiteblock-img, .whiteblock-cta {
+  width: 100%;
+}
+
+.whiteblock-img {
+  justify-content: center;
+}
+}
