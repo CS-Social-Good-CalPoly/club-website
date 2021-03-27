@@ -1,21 +1,27 @@
 import React from 'react'
 import '../../assets/SharedAssets/Nav.css';
 import imager from '../../images/CSSG.png';
+import menu from '../../images/menu_24px.svg';
 import { Link } from 'react-router-dom';
-
+import 'font-awesome/css/font-awesome.min.css';
+import { useState } from 'react';
 
 export default function Nav() {
+    const [open, setOpen] = useState(false);
     return (
         <div>
             <nav className = "nav-bar">
                 <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {imager} alt="temp-logo" /></Link></li> 
-                <ul className="nav-links">
+                <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}}>
                     <li><Link to ="/WhatWeDo">What We Do</Link></li>
                     <li><Link to ="/Projects">Project</Link></li>
                     <li><Link to ="/Calendar">Calendar</Link></li>
                     <li><Link to ="/Officers">Officers</Link></li>
                     <li><Link to ="/Contact">Contact Us</Link></li>
+                    {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
+                <li></li>
+                <li onClick={()=>setOpen(!open)} style= {{ 'list-style' : 'none'}}><img className="burger" src= {menu} alt="menu" /></li> 
             </nav>
         </div>
     )
