@@ -9,6 +9,7 @@ import BlueWaveBlock from './BlueWaveBlock';
 export default function WhatWeDo() {
     return (
         <div>      
+            <p>hihi</p>
             <BlueWaveBlock
                 imageUrl={project_photo} 
                 title="Join a project team" 
@@ -20,6 +21,7 @@ export default function WhatWeDo() {
                 buttonText="Learn more" 
                 buttonStyle={"filled"} 
             />
+            <p>hihi</p>
         </div>
     )
 }

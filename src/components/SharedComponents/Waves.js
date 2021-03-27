@@ -16,7 +16,7 @@ const Waves = (props) => {
     else wave = footerDarkBlue;
 
     return (
-        <div style={{height: '150px' , overflow: 'hidden'}} className='waves'>
+        <div style={{overflow: 'hidden'}} className='waves'>
             <img src={wave} alt={color} width='100%' />
         </div>  
     )
