@@ -1,0 +1,55 @@
+
+#mc_embed_signup{
+    background:#fff;
+    clear:center;
+    /* font:14px Helvetica,Arial,sans-serif; */
+}
+
+.mc-email{
+    position: relative;
+    font-size: 18px; 
+    display:block; 
+    padding:0 .4rem;
+    margin:0 4% 10px 0; 
+    height: 3.5rem;
+    min-height:32px;
+    min-width:130px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+
+.mc-button{
+    position: absolute;
+    border: 3px solid #023E8A;
+    padding: 1.3rem 2.5rem;
+    background: #023E8A;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* Mobile Phone Specific CSS should be placed here */
+@media screen and (max-device-width: 640px){
+    .mc-email{
+        width: 20rem; 
+        margin-left: 0.5rem;
+    }
+    .mc-button{
+        margin-left: 2.5rem;
+        margin-right: 3rem;
+        margin-top: 1rem;
+    }
+}
+/* Desktop Specific CSS should be placed here */
+ @media screen and (min-width: 641px){
+ /* some CSS here */
+    .mc-email {
+        width:38rem; 
+    }
+    .mc-button{
+        margin-top: 1.8rem;
+        margin-left: 10rem;
+    }
+}
