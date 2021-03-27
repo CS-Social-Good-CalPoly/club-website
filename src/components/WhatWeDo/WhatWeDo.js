@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/WhatWeDo.css';
+import '../../assets/WhatWeDo/WhatWeDo.css';
 
 export default function WhatWeDo() {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/ProjectCard.css';
+import '../../assets/Projects/ProjectCard.css';
 
 const ProjectCard = ({title, techStack, url, description}) => {
   /**

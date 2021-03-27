@@ -1,6 +1,6 @@
 import React from 'react'
-import '../assets/Nav.css';
-import imager from '../images/CSSG.png';
+import '../../assets/SharedAssets/Nav.css';
+import imager from '../../images/CSSG.png';
 import { Link } from 'react-router-dom';
 
 

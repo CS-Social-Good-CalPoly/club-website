@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/OfficerCard.css';
+import '../../assets/Officers/OfficerCard.css';
 import { Card } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
