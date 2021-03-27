@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../assets/WhatWeDo/WhatWeDo.css';
+import SubscriptionForm from '../SharedComponents/SubscriptionForm'
 
 export default function WhatWeDo() {
     return (
