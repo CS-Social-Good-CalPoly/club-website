@@ -1,0 +1,72 @@
+.bluewaveblock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: space-between;
+    height: 10vh;
+}
+
+.bluewaveblock-img, .bluewaveblock-cta {
+    background-color: #CAF0F8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+}
+
+.bluewaveblock-img {
+    background-color: #37344e;
+    width: 100%;
+    /*max-width: 685px;*/
+    justify-content: center;
+    justify-self: center;
+    padding: 6em;
+}
+
+.bluewaveblock-cta {
+    background-color: #1300bd;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em;
+    font-size: xx-small;
+}
+
+.bluewaveblock-wave {
+    /*background-color: #b9c0ba;*/
+    overflow: visible;
+    width: 100%;
+}
+  
+@media screen and (max-device-width: 640px){
+
+    .bluewaveblock-cta {
+        background-color: #664666;
+        width: 60%;
+    }
+
+    /*
+    .bluewaveblock {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bluewaveblock-img {
+        max-width: 400px;
+    }
+
+    .bluewaveblock-img, .bluewaveblock-cta {
+        width: 60%;
+    }
+
+    .bluewaveblock-img {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+    */
+
+}
