@@ -10,9 +10,9 @@ export default function Nav() {
     const [open, setOpen] = useState(false);
     return (
         <div>
-            <nav className = "nav-bar">
+            <nav className = "nav-bar" >
                 <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {imager} alt="temp-logo" /></Link></li> 
-                <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}}>
+                <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}} onClick={()=>setOpen(!open)}>
                     <li><Link to ="/WhatWeDo">What We Do</Link></li>
                     <li><Link to ="/Projects">Project</Link></li>
                     <li><Link to ="/Calendar">Calendar</Link></li>
