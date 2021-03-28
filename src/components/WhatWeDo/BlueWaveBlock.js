@@ -11,6 +11,7 @@ const BlueWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonSty
                     <div className="bluewaveblock-img">
                         <img src={imageUrl} alt=""/>
                     </div>
+                    <div className="break"></div>
                     <div className="bluewaveblock-cta">
                         <CallToAction 
                             title={title} 
