@@ -8,12 +8,11 @@ import Officers from './components/Officers/Officers';
 import Calendar from './components/Calendar/Calendar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'; 
 
-
 function App() {
   return (
     <Router>
       <div className="App">
-        <Nav />
+        <Nav></Nav>
         <Switch>
           <Route exact path="/Officers" component={Officers}/>
           <Route exact path="/Calendar" component={Calendar}/>

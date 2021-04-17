@@ -2,7 +2,7 @@ import React from 'react'
 import '../../assets/WhatWeDo/WhiteBlock.css'
 import CallToAction from "../SharedComponents/CallToAction"
 
-const WhiteBlock = ({ imageUrl, title, text, buttonUrl, buttonText }) => {
+const WhiteBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonStyle }) => {
     return (
         <div className="whiteblock" >
             <div className="whiteblock-cta">
@@ -11,6 +11,7 @@ const WhiteBlock = ({ imageUrl, title, text, buttonUrl, buttonText }) => {
                     text={text} 
                     buttonUrl={buttonUrl} 
                     buttonText={buttonText} 
+                    buttonStyle={buttonStyle}
                 />
             </div>
             <div className="whiteblock-img">
