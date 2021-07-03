@@ -1,27 +1,48 @@
 .officer-card {
     padding: 15px;
+    /*background-color: bisque;*/
 }
 
 #officer-pic {
     width: auto;
-    max-width: 250px;
+    max-width: 210px;
     height: auto;
-    max-height: 250px;
+    background-color: bisque;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+#linkedin-logo {
+    max-width: 50px;
+    max-height: 50px;
+    position: absolute; 
+    bottom: 96px; 
+    right: -2px;
 }
 
 #name, #position, #email {
+    padding-left: 0px;
+    padding-right: 0px;
     text-align: left;
     color: #023E8A;
     
 }
 
+#name {
+    font-weight: bold;
+    font-size: 25px;
+}
+
 #position {
     font-style: italic;
     font-size: 18px;
+    font-weight: medium;
+
 }
 
 #email {
     opacity: 0.8;
     /* margin-top: 25px; */
     margin-top: 5px;
+    font-size: 15px;
 }
