@@ -1,7 +1,15 @@
 import React from 'react'
 import '../../assets/Officers/Officers.css';
 import OfficerCard from './OfficerCard';
+import OfficerBanner from './OfficerBanner';
 import srirag_photo from '../../images/srirag.jpg';
+import BlueWaveBlock from '../WhatWeDo/BlueWaveBlock';
+
+const Banner = () => {
+    return (
+        <OfficerBanner></OfficerBanner>
+    )
+}
 
 const Officers = () => {
     return (
@@ -29,6 +37,7 @@ const Bleh = () => {
 const final = () => {
     return(
         <>
+        <Banner />
         <Officers />
         <Bleh />
         </>

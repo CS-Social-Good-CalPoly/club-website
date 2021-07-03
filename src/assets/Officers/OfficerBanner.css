@@ -1,0 +1,82 @@
+.officerbanner-container {
+    position: relative;
+    margin-top: -12em;
+}
+
+.officerbanner-wave {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-top: -12em;
+    z-index: -10;
+}
+
+h1 {
+    color: #023E8A;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 11%;
+}
+
+.officerbanner {
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    z-index: -1;
+    background-color: #CAF0F8;
+    padding: 20px;
+    padding-top: 5rem;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+@media screen and (max-width : 1500px) {
+    .officerbanner-container {
+        margin-top: -10em;
+    }
+    .officerbanner-wave {
+        margin-top: -10em;
+    }
+}
+
+@media screen and (max-width : 1300px) {
+    .officerbanner-container {
+        margin-top: -8em;
+    }
+    .officerbanner-wave {
+        margin-top: -8em;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .officerbanner-container {
+        margin-top: -6em;
+    }
+
+    .officerbanner-wave {
+        margin-top: -4em;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+}
+  
+@media screen and (min-width : 0px) and (max-width : 640px) {
+    .officerbanner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: -7em;
+
+    }
+    .officerbanner-wave {
+        margin-top: -3em;
+    }
+    h1 {
+        margin-top: 80px;
+    }
+}
