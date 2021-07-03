@@ -6,7 +6,7 @@ import UnfillButton from './UnfillButton'
 const CallToAction = ({ title, text, buttonUrl, buttonText, buttonStyle }) => {
     return (
         <div className="call-to-action">
-            <h2>{title}</h2>
+            <h1>{title}</h1>
             <div className="cta-text">
                 <p>{text}</p>
             </div>

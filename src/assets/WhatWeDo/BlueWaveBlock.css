@@ -1,5 +1,9 @@
-.bluewaveblock-container {
+@import "../SharedAssets/Styles.css";
+
+.bluewaveblock-main {
     position: relative;
+    width: 100%;
+    z-index: -1;
 }
 
 .bluewaveblock .bluewaveblock-wave {
@@ -7,32 +11,40 @@
     height: 100%;
 }
 
-.bluewaveblock {
-    position: relative;
+.bluewaveblock-parent {
     display: flex;
-    margin-top: 0px;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    background-color: #CAF0F8;
-    padding: 20px;
+    min-height: fit-content;
+    background-color: var(--light-blue);
+    padding: 3em;
+}
+
+.bluewaveblock-child {
+    height: 100%;
+    width: 50%;
     padding-top: 5rem;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.bluewaveblock img {
-    width: 80%;
-    min-width: 80%;
-    /*max-width: 685px;*/
+.bluewaveblock-child:first-child {
+    /*max-width: 950px;*/
+    padding-left: 15%;
 }
 
-.bluewaveblock-img {
-    padding-left: 5rem;
-    width: 60%;
+.bluewaveblock-child:nth-child(2) {
+    max-width: 500px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 0.5em;
 }
 
-.bluewaveblock-cta {
-    width: 50%;
+.bluewaveblock-child img {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,64 +56,49 @@
     z-index: -10;
 }
 
-.break {
-    display: none;
-}
-  
-@media screen and (min-width : 0px) and (max-width : 640px) {
-    
-    .bluewaveblock {
-        display: flex;
-        flex-wrap: wrap;
-        /*background-color: darkcyan;*/
-        justify-content: center;
-        margin-left: 0;
-        margin-right: 0;
-        /*
-        position: relative;
-        display: flex;
-        margin-top: 0px;
-        z-index: -1;
-        background-color: #CAF0F8;
-        padding: 20px;
-        */
-    }
+@media screen and (max-width: 1111px) {
 
-    .break {
-        display: block;
-        flex-basis: 100%;
-        height: 0;
+    .bluewaveblock-parent {
+        padding: 2em;
     }
-
-    .bluewaveblock-cta {
-        width: 100%;
+/*
+    .bluewaveblock-child:first-child {
+        padding-left: 5%;
+        min-width: 400px;
     }
-
-    .bluewaveblock-img {
+*/
+    .bluewaveblock-child:nth-child(2) {
+        max-width: 400px;
+        transform: scale(80%);
         padding-left: 0;
     }
 
-    .bluewaveblock-img img{
-        width: 80%;
-        min-width: 80%;
-        margin-bottom: 2rem;
-        background-color: darkgoldenrod;
-        /*max-width: 685px;*/
-    }
+}
 
-    /*
-    .bluewaveblock img {
-        max-width: 90%;
-        margin-bottom: 10px;
-    }
-
-    .bluewaveblock-img, .bluewaveblock-cta {
-        width: 100%;
-    }
-
-    .bluewaveblock-img {
+@media screen and (max-width: 800px) {
+   
+    .bluewaveblock-parent {
+        max-width: 800px;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
-    */
+
+    .bluewaveblock-child:first-child {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -50px;
+        padding: 0;
+        transform: scale(80%);
+    }
+
+    .bluewaveblock-child:nth-child(2) {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        transform: scale(90%);
+    }
 
 }
+
+

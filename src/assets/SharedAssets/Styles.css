@@ -1,0 +1,20 @@
+:root{
+    /* ---fonts ---*/
+    --heading-1: 35px;
+    --heading-1-responsive: calc(1rem + 1.6vw);
+    --subheading-1: 20px;
+    --subheading-1-responsive: calc(1rem + 0.3vw);
+    --button: 20px;
+    --button-responsive: calc(1rem + 0.3vw);
+  
+    /* --- colors --- */
+    --light-blue:#CAF0F8;
+    --dark-blue:#023E8A;
+
+    /* --- breakpoints --- */
+    --breakpoint-1: 1000;
+    --breakpoint-2: 700;
+
+    /* --- other --- */
+    line-height: calc(1.5rem + 1.5vw);
+}

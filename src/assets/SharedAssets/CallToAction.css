@@ -1,88 +1,71 @@
+@import "Styles.css";
+
 .call-to-action {
   width: 440px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /*background-color: rgb(51, 139, 0);*/
+  margin-left: 5rem;
 }
 
-.call-to-action h2 {
-  color: #023E8A;
+.call-to-action h1 {
+  color: var(--dark-blue);
   text-align: left;
-  font-size: 2.2rem;
-  font-weight: 600;
-  line-height: 60px;
+  font-weight: bold;
   margin-bottom: 50px;
+  font-size: var(--heading-1);
 }
 
 .call-to-action p {
-  color: #023E8A;
+  color: var(--dark-blue);
   text-align: left;
-  font-size: 1.3rem;
   font-weight: 400;
-  line-height: 35px;
   margin-bottom: 55px;
+  font-size: var(--subheading-1);
 }
 
-@media screen and (max-device-width: 800px){
-
+@media screen and (max-width: 1111px){
   .call-to-action {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     max-width: 100%;
+    margin-left: 0;
+    /*transform: scale(86%);*/
+    padding-left: 10%;
   }
 
-  .call-to-action h2 {
-    text-align: center;
-    font-size: 1.4rem;
-    line-height: 2.5rem;
+  .call-to-action h1 {
+    text-align: left;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: bold;
+    font-size: var(--heading-1-responsive);
   }
 
   .cta-text {
-    text-align: center;
+    padding: 0;
     max-width: 85%;
   }
 
   .call-to-action p {
-    font-size: 0.8rem;
     line-height: 1.8rem;
     margin-bottom: 30px;
-    text-align: center;
+    font-size: var(--subheading-1-responsive);
   }
 
 }
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 800px){
 
   .call-to-action {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    max-width: 100%;
-  }
-
-  .call-to-action h2 {
-    text-align: center;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
-    margin-bottom: 20px;
-    font-weight: 700;
+    padding: 0;
   }
 
   .cta-text {
-    text-align: center;
-    max-width: 85%;
-  }
-
-  .call-to-action p {
-    font-size: 1rem;
-    line-height: 1.8rem;
-    margin-bottom: 30px;
-    text-align: center;
+    max-width: 65%;
   }
 
 }
+
+
