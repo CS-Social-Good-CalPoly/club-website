@@ -3,9 +3,10 @@
     /*background-color: bisque;*/
 }
 
+/* photo cropped to a 1:11 ratio */
 #officer-pic {
     width: auto;
-    max-width: 210px;
+    max-width: 200px;
     height: auto;
     background-color: bisque;
     margin-bottom: 12px;
@@ -13,31 +14,30 @@
 }
 
 #linkedin-logo {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 36px;
+    max-height: 36px;
     position: absolute; 
-    bottom: 96px; 
-    right: -2px;
+    bottom: 90px; 
+    right: 4px;
 }
 
 #name, #position, #email {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0 3px;
     text-align: left;
     color: #023E8A;
-    
 }
 
 #name {
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 8px;
 }
 
 #position {
     font-style: italic;
     font-size: 18px;
     font-weight: medium;
-
+    margin-bottom: -2px;
 }
 
 #email {
