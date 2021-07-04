@@ -1,7 +1,7 @@
 :root{
     /* ---fonts ---*/
     --heading-1: 35px;
-    --heading-1-responsive: calc(1rem + 1.6vw);
+    --heading-1-responsive: calc(1rem + 1.2vw);
     --subheading-1: 20px;
     --subheading-1-responsive: calc(1rem + 0.3vw);
     --button: 20px;
