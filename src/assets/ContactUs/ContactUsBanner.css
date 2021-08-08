@@ -1,0 +1,57 @@
+.contactusbanner-container h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #44746C;
+}
+
+.contactusbanner-container p {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #44746C;
+    opacity: 40%;
+}
+
+
+.contactusbanner-container {
+    padding: 3.2em;
+    height: 100%;
+    background-color: #DCECE3;
+}
+
+.socialmedia-parent {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia-parent > a {
+    margin: auto 0.80em;  
+}
+
+.socialmedia-child img {
+    min-width: 42px;
+    margin-bottom: 24px;
+    height: auto;
+    width: 100%;
+    /*background-color: aqua;*/
+}
+
+.socialmedia-child:nth-child(2), 
+.socialmedia-child:nth-child(3), 
+.socialmedia-child:nth-child(4) {
+    margin-top: 2px;
+}
+
+@media screen and (max-device-width: 380px) {
+    .contactusbanner-container h3 {
+        font-size: 1.1em;
+        margin: auto 1.7em;
+        line-height: 1.5em;
+    }
+    .socialmedia-parent {
+        margin-top: 1em;
+        transform: scale(80%);
+    }
+}
