@@ -25,6 +25,7 @@ export const ContactUsBanner = () => {
                     <img src={slack}/>
                 </a> 
             </div>
+            <p>© 2021 Cal Poly SLO CS + Social Good.</p>
         </div>
     )
 };

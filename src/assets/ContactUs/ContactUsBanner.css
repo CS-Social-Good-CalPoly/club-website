@@ -1,13 +1,22 @@
 .contactusbanner-container h3 {
+    margin-top: 10px;
     font-size: 1.5em;
     font-weight: bold;
-    color: white;
+    color: #44746C;
 }
 
+.contactusbanner-container p {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: #44746C;
+    opacity: 40%;
+}
+
+
 .contactusbanner-container {
-    padding: 3.5em;
+    padding: 3.2em;
     height: 100%;
-    background-color: #023E8A;
+    background-color: #DCECE3;
 }
 
 .socialmedia-parent {
@@ -18,11 +27,12 @@
 }
 
 .socialmedia-parent > a {
-    margin: auto 0.85em;  
+    margin: auto 0.80em;  
 }
 
 .socialmedia-child img {
     min-width: 42px;
+    margin-bottom: 24px;
     height: auto;
     width: 100%;
     /*background-color: aqua;*/
