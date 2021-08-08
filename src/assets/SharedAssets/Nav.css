@@ -24,35 +24,43 @@ a {
   height: 70px;
   overflow: auto;
   overflow-x: hidden;
+  /*
   padding-left: 10px;
   padding-right: 10px;
+  */
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
 }
 
 .nav-bar img {
-  width: 100px;
-  height: 20px;
-  margin-left: 30px;
+  min-width: 90%;
+  min-height: 100%;
+  margin-left: 15px;
 } 
 
+/*
 nav .logo {
   margin-right: 200px;
+}
+*/
+
+nav .spacer {
+  width: 62%;
 }
 
 nav .nav-links {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
-  margin-left: 70px;
-  width: 60%;
+  /*margin-left: 70px;*/
+  width: 100%;
   list-style: none;
   font-weight: 800;
 }
 
 nav .nav-links a {
   text-decoration: none;
-  color:#023E8A;
+  color:#44746C;
 }
 
 nav .burger {
@@ -61,32 +69,34 @@ nav .burger {
 }
 
 /* Desktop Specific CSS should be placed here */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1300px){
 
-  nav .logo {
-    margin-right: 2rem;
-  }
-
-  nav .nav-links {
-    display: flex;
-    justify-content:space-around;
-    width: 90%;
+  nav .spacer {
+    width: 40%;
   }
 
 }
 
 /* Mobile Phone Specific CSS should be placed here */
 
-@media screen and (min-width : 0px) and  (max-width : 539px) {
+@media screen and (min-width : 0px) and  (max-width : 950px) {
   
   nav .burger {
-    transform: scale(2);
-    width: 40px;
+    transform: scale(1.2);
     display: block;
+    padding-right: 2rem;
+    /*width: 40px;*/
+    /*margin-left: 15rem;
+    max-width: 40px;*/
   }
 
   nav .logo {
-    margin-left: .5rem;
+    padding-right: 30rem;
+    /*
+    margin-right: 15rem;
+    max-width: 20px;
+    max-height: 50px;
+    */
   }
 
   nav .nav-links {
@@ -123,8 +133,19 @@ nav .burger {
 
 }
 
-@media screen and (min-width : 540px) and  (max-width : 700px) {
+@media screen and (min-width : 540px) and  (max-width : 720px) {
 
+  nav .burger {
+    transform: scale(1.2);
+    display: block;
+    padding-right: 1.5rem;
+  }
+
+  nav .logo {
+    padding-right: 22rem;
+  }
+
+  /*
   nav .burger {
     transform: scale(2);
     width: 40px;
@@ -167,5 +188,6 @@ nav .burger {
     margin-bottom: -15px;
     border-bottom: 0px solid #023d8a10;
   }
+  */
 
 }
