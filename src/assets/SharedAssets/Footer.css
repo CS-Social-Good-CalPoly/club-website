@@ -1,13 +1,61 @@
-/* 
-CSS that applies to both Mobile and Desktop sizes should be put here
-*/
-
-/* Mobile Phone Specific CSS should be placed here */
-@media screen and (max-device-width: 640px){
-    /* some CSS here */
+.footer-container h3 {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #44746C;
 }
 
-/* Desktop Specific CSS should be placed here */
-@media screen and (min-width: 641px){
-    /* some CSS here */
+.footer-container p {
+    font-size: 1em;
+    font-weight: 500;
+    color: #44746C;
+    opacity: 40%;
+}
+
+.footer-container {
+    padding: 1.3em;
+    height: 100%;
+    background-color: #DCECE3;
+}
+
+.socialmedia-parent {
+    margin-top: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialmedia-parent > a {
+    margin: auto 0.50em;  
+}
+
+.socialmedia-child img {
+    min-width: 10px;
+    margin-bottom: 16px;
+    height: auto;
+    width: 80%;
+    /*background-color: aqua;*/
+}
+
+.socialmedia-child:nth-child(2), 
+.socialmedia-child:nth-child(3), 
+.socialmedia-child:nth-child(4) {
+    margin-top: 2px;
+}
+
+@media screen and (max-device-width: 380px) {
+    .footer-container h3 {
+        font-size: 0.9em;
+    }
+    .socialmedia-parent {
+        margin-top: 0.4em;
+        transform: scale(70%);
+    }
+    .socialmedia-child img {
+        min-width: 20px;
+        margin-bottom: 12px;
+    }
+    .footer-container p {
+        font-size: 0.8em;
+    }
 }

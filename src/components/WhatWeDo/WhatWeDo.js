@@ -5,11 +5,12 @@ import '../../assets/Projects/Projects.css';
 import default_photo from '../../images/light-blue-wave.svg';
 import project_photo from '../../images/project-team-photo.png';
 import BlueWaveBlock from './BlueWaveBlock';
+import BlueNewsletterSubBox from './BlueNewsletterSubBox';
+import Footer from '../SharedComponents/Footer';
 
 export default function WhatWeDo() {
     return (
         <div>      
-            {/*<p>hihi</p>*/}
             <BlueWaveBlock
                 imageUrl={project_photo} 
                 title="Join a project team" 
@@ -21,7 +22,10 @@ export default function WhatWeDo() {
                 buttonText="Learn more" 
                 buttonStyle={"filled"} 
             />
-            <p>hihi</p>
+            <BlueNewsletterSubBox>
+                
+            </BlueNewsletterSubBox>
+            <Footer/>
         </div>
     )
 }
