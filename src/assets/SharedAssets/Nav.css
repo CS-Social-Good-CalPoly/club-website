@@ -7,7 +7,7 @@
 li {
   text-decoration: none;
   color:#023E8A;
-  font-size: 18px;
+  font-size: 1.05em;
 }
 
 a {
@@ -24,35 +24,32 @@ a {
   height: 70px;
   overflow: auto;
   overflow-x: hidden;
-  padding-left: 10px;
-  padding-right: 10px;
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
 }
 
 .nav-bar img {
-  width: 100px;
-  height: 20px;
-  margin-left: 30px;
+  min-width: 90%;
+  min-height: 100%;
+  margin-left: 15px;
 } 
 
-nav .logo {
-  margin-right: 200px;
+nav .spacer {
+  width: 62%;
 }
 
 nav .nav-links {
   display: flex;
   justify-content: space-around;
   margin-top: 1rem;
-  margin-left: 70px;
-  width: 60%;
+  width: 100%;
   list-style: none;
   font-weight: 800;
 }
 
 nav .nav-links a {
   text-decoration: none;
-  color:#023E8A;
+  color:#44746C;
 }
 
 nav .burger {
@@ -61,32 +58,25 @@ nav .burger {
 }
 
 /* Desktop Specific CSS should be placed here */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1300px){
 
-  nav .logo {
-    margin-right: 2rem;
-  }
-
-  nav .nav-links {
-    display: flex;
-    justify-content:space-around;
-    width: 90%;
+  nav .spacer {
+    width: 40%;
   }
 
 }
 
 /* Mobile Phone Specific CSS should be placed here */
-
-@media screen and (min-width : 0px) and  (max-width : 539px) {
+@media screen and (max-width : 950px) {
   
   nav .burger {
-    transform: scale(2);
-    width: 40px;
+    transform: scale(1.2);
     display: block;
+    padding-right: 2rem;
   }
 
   nav .logo {
-    margin-left: .5rem;
+    padding-right: 30rem;
   }
 
   nav .nav-links {
@@ -98,7 +88,7 @@ nav .burger {
     height: min-content;
     background-color: #ffffff;
     padding: 20px;
-    width: 45%;
+    width: 30%;
     transform: translateY(-500px);
     border-radius: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
@@ -113,7 +103,7 @@ nav .burger {
   }
 
   nav .nav-links li:first-of-type {
-    margin-top: -18px;
+    margin-top: -52px;
   }
 
   nav .nav-links li:last-of-type {
@@ -123,49 +113,64 @@ nav .burger {
 
 }
 
-@media screen and (min-width : 540px) and  (max-width : 700px) {
+@media screen and (max-width : 720px) {
 
   nav .burger {
-    transform: scale(2);
-    width: 40px;
-    display: block;
+    transform: scale(1.2);
+    padding-right: 1.5rem;
   }
 
   nav .logo {
-    margin-right: 8rem;
-    margin-left: 0;
-  }
-
-  nav .nav-links {
-    position: absolute;
-    display: block;
-    margin-top: 4px;
-    top: 70px;
-    right: 0;
-    height: min-content;
-    background-color: #ffffff;
-    padding: 20px;
-    width: 40%;
-    transform: translateY(-500px);
-    border-radius: 10px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
-  }
-
-  nav .nav-links li {
-    text-align: right;
-    padding: 15px 20px 15px 15px;
-    border-bottom: 2px solid #023d8a10;
-    font-weight: 800;
-    font-size: 18px;
-  }
-
-  nav .nav-links li:first-of-type {
-    margin-top: -18px;
-  }
-  
-  nav .nav-links li:last-of-type {
-    margin-bottom: -15px;
-    border-bottom: 0px solid #023d8a10;
+    padding-right: 22rem;
   }
 
 }
+
+@media screen and (max-width : 600px) {
+
+  nav .logo {
+    padding-right: 18rem;
+  }
+
+  nav .nav-links {
+    width: 40%; 
+  }
+
+}
+
+@media screen and (max-width : 500px) {
+
+  nav .logo {
+    padding-right: 8rem;
+  }
+
+}
+
+@media screen and (max-width : 400px) {
+
+  nav .logo {
+    padding-right: 4rem;
+  }
+
+  nav .nav-links {
+    width: 50%; 
+  }
+
+}
+
+/*
+@media screen and (min-width : 0px) and  (max-width : 0px) {
+
+  nav .burger {
+    transform: scale(1.2);
+    display: block;
+    padding-right: 1.5rem;
+  }
+
+  nav .logo {
+    padding-right: 22rem;
+  }
+
+}
+*/
+

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../assets/SharedAssets/Nav.css';
-import imager from '../../images/CSSG.png';
+import imager from '../../images/CSSG.svg';
 import menu from '../../images/menu_24px.svg';
 import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
@@ -10,10 +10,11 @@ export default function Nav() {
     const [open, setOpen] = useState(false);
     return (
         <div>
-            <nav className = "nav-bar" >
+            <nav className="nav-bar" >
                 <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {imager} alt="temp-logo" /></Link></li> 
                 <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}} onClick={()=>setOpen(!open)}>
-                    <li><Link to ="/WhatWeDo">What We Do</Link></li>
+                    {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
+                    <li className="spacer"></li>
                     <li><Link to ="/Projects">Project</Link></li>
                     <li><Link to ="/Calendar">Calendar</Link></li>
                     <li><Link to ="/Officers">Officers</Link></li>

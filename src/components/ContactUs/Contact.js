@@ -1,12 +1,19 @@
 import React from 'react'
 import '../../assets/ContactUs/Contact.css';
+import { ContactUsBanner } from './ContactUsBanner';
 
-
-
-export default function Contact() {
+const Banner = () => {
     return (
-        <div>
-            <h3>Contact us</h3>
-        </div>
+        <ContactUsBanner/>
     )
 }
+
+const final = () => {
+    return(
+        <>
+        <Banner />
+        </>
+    ) 
+}
+
+export default final;
