@@ -88,7 +88,7 @@ nav .burger {
     height: min-content;
     background-color: #ffffff;
     padding: 20px;
-    width: 45%;
+    width: 30%;
     transform: translateY(-500px);
     border-radius: 10px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
@@ -103,7 +103,7 @@ nav .burger {
   }
 
   nav .nav-links li:first-of-type {
-    margin-top: -18px;
+    margin-top: -52px;
   }
 
   nav .nav-links li:last-of-type {
@@ -132,6 +132,10 @@ nav .burger {
     padding-right: 18rem;
   }
 
+  nav .nav-links {
+    width: 40%; 
+  }
+
 }
 
 @media screen and (max-width : 500px) {
@@ -146,6 +150,10 @@ nav .burger {
 
   nav .logo {
     padding-right: 4rem;
+  }
+
+  nav .nav-links {
+    width: 50%; 
   }
 
 }
