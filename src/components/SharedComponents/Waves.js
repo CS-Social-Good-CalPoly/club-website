@@ -1,6 +1,6 @@
 import React from 'react'
 import darkBlue from './../../images/dark-blue-wave.svg';
-import lightBlue from './../../images/light-blue-wave.svg';
+import lightBlue from './../../images/gray-wave.svg';
 import footerDarkBlue from './../../images/footer-dark-blue-wave.svg';
 
 /*

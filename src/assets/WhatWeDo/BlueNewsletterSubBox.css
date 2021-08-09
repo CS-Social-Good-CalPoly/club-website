@@ -1,7 +1,7 @@
 .blue-newsletter {
-  background: #CAF0F8;
+  background: #F5F5F5;
   background-image: url('../../images/background-shapes-desktop.svg');
-  max-height: 530px;
+  height: 380px;
 }
 
 .blue-newsletter div img {
@@ -19,21 +19,37 @@
 }
 
 .blue-newsletter h2 {
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 20px;
-  font-size: 2.5rem;
+  font-size: 28px;
   font-weight: 700;
-  color:#023E8A;
+  color: #2E404B;
 }
 
 .blue-newsletter h4 {
-  color:#023E8A;
-  font-size: 1.6rem;
-  margin: 0 auto 50px;
+  color: #567860;
+  font-size: 20px;
+  margin: 0 auto 30px;
 }
 
 .blue-newsletter #mc_embed_signup {
   background: transparent;
+}
+
+@media screen and (max-width : 1700px) {
+
+  .blue-news-container {
+    transform: scale(0.9);
+  }
+
+}
+
+@media screen and (max-width : 1300px) {
+
+  .blue-news-container {
+    transform: scale(0.8);
+  }
+
 }
 
 @media screen and (max-device-width: 640px){

@@ -1,50 +1,98 @@
-
 #mc_embed_signup{
     background:#fff;
-    clear:center;
-    /* font:14px Helvetica,Arial,sans-serif; */
+    clear: center;
 }
-
 .mc-email{
     position: relative;
-    font-size: 18px; 
-    display:block; 
-    padding:0 .4rem;
-    margin:0 4% 10px 0; 
-    height: 3.5rem;
-    min-height:32px;
-    min-width:130px; 
+    font-size: 16px; 
+    display: block; 
+    padding: .4rem;
+    /*margin:0 4% 10px 0; */
+    height: 3rem;
+    min-height: 32px;
+    min-width: 620px; 
+    margin-left: -30px;
+    margin-bottom: 15px;
+    /*
     -webkit-border-radius: 3px; 
     -moz-border-radius: 3px; 
     border-radius: 3px;
+    */
+}
+
+#mc_embed_signup button {
+    border: 1px solid #2E404B;
+    -webkit-appearance: none;
 }
 
 .mc-button{
     position: absolute;
-    border: 3px solid #023E8A;
-    padding: 1.3rem 2.5rem;
-    background: #023E8A;
+    border: 3px solid;
+    padding: 15px 22px; /* 0.6rem 1.5rem */
+    background: #2E404B;
     color: #ffffff;
-    font-size: 18px;
     text-align: center;
-    border-radius: 3px;
+    font-size: 18px;
+    align-self: center;
+    margin-left: 10.5rem;
 }
 
-/* Mobile Phone Specific CSS should be placed here */
+@media screen and (max-device-width: 860px){
+
+    .mc-button {
+        padding: 12px 20px; /* .3em 1.2em */
+    }
+
+}
+
 @media screen and (max-device-width: 640px){
     .mc-email{
-        width: 20rem; 
+        width: 90%; 
+        min-width: 450px; 
         margin-left: 0.5rem;
     }
     .mc-button{
-        margin-left: 2.5rem;
-        margin-right: 3rem;
-        margin-top: 1rem;
+        margin-left: 8rem;
     }
 }
-/* Desktop Specific CSS should be placed here */
+
+@media screen and (max-device-width: 570px){
+    .mc-email{
+        min-width: 300px; 
+        margin-left: 2%;
+    }
+    .mc-button{
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-device-width: 480px){
+
+    .mc-button{
+        margin-left: 17%;
+    }
+}
+
+@media screen and (max-device-width: 380px){
+    .mc-email{
+        margin-left: -3%;
+    }
+    .mc-button{
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-device-width: 330px){
+    .mc-email{
+        margin-left: -9%;
+    }
+    .mc-button{
+        margin-left: 5%;
+    }
+}
+
+/* 
  @media screen and (min-width: 641px){
- /* some CSS here */
     .mc-email {
         width:38rem; 
     }
@@ -53,3 +101,4 @@
         margin-left: 10rem;
     }
 }
+*/

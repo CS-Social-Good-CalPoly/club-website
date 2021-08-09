@@ -2,7 +2,8 @@ import React from 'react'
 import '../../assets/WhatWeDo/WhatWeDo.css';
 import SubscriptionForm from '../SharedComponents/SubscriptionForm'
 import '../../assets/Projects/Projects.css';
-import default_photo from '../../images/light-blue-wave.svg';
+/*import default_photo from '../../images/light-blue-wave.svg';*/
+import default_photo from '../../images/gray-wave.svg';
 import project_photo from '../../images/project-team-photo.png';
 import BlueWaveBlock from './BlueWaveBlock';
 import BlueNewsletterSubBox from './BlueNewsletterSubBox';
