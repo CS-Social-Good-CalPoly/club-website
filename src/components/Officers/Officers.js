@@ -36,5 +36,4 @@ const final = () => {
     
 }
 
-
-export default final 
+export default final;

@@ -1,18 +1,18 @@
-.footer-container h3 {
+.contactusbanner-container h3 {
     margin-top: 10px;
     font-size: 1.1em;
     font-weight: bold;
     color: #44746C;
 }
 
-.footer-container p {
+.contactusbanner-container p {
     font-size: 1em;
     font-weight: 500;
     color: #44746C;
     opacity: 40%;
 }
 
-.footer-container {
+.contactusbanner-container {
     padding: 1.3em;
     height: 100%;
     background-color: #DCECE3;
@@ -44,7 +44,7 @@
 }
 
 @media screen and (max-device-width: 380px) {
-    .footer-container h3 {
+    .contactusbanner-container h3 {
         font-size: 0.9em;
     }
     .socialmedia-parent {
@@ -55,7 +55,7 @@
         min-width: 20px;
         margin-bottom: 12px;
     }
-    .footer-container p {
+    .contactusbanner-container p {
         font-size: 0.8em;
     }
 }

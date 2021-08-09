@@ -12,19 +12,20 @@
     display: flex;
     margin-top: 0px;
     z-index: -1;
-    background-color: #CAF0F8;
-    padding: 20px;
-    padding-top: 5rem;
+    background-color: #F5F5F5;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 4.5rem;
 }
 
 .bluewaveblock img {
     width: 80%;
-    min-width: 80%;
-    /*max-width: 685px;*/
+    max-width: 520px;
+    min-width: 450px;
 }
 
 .bluewaveblock-img {
-    padding-left: 5rem;
+    padding-left: 0.2rem;
     width: 60%;
     display: flex;
     justify-content: center;
@@ -40,20 +41,82 @@
 
 .bluewaveblock-wave {
     position: relative;
-    margin-top: -4em;
+    margin-top: -10em;
     z-index: -10;
 }
 
 .break {
     display: none;
 }
+
+@media screen and (max-width : 1700px) {
+
+    .bluewaveblock {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .bluewaveblock-cta {
+        transform: scale(0.9);
+    }
+
+    .bluewaveblock-wave {
+        position: relative;
+        margin-top: -6em;
+        z-index: -10;
+    }
+
+}
+
+@media screen and (max-width : 1450px) {
+
+    .bluewaveblock {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+
+@media screen and (max-width : 1300px) {
+
+    .bluewaveblock {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .bluewaveblock-cta {
+        transform: scale(0.8);
+    }
+
+    .bluewaveblock-img {
+        padding-left: 1rem;
+    }
+
+    .bluewaveblock img {
+        width: 80%;
+        min-width: 400px;
+    }
+
+}
+
+@media screen and (max-width : 1100px) {
+/*
+    .bluewaveblock-wave {
+        margin-top: -10em;
+    }
+*/
+
+    .bluewaveblock {
+        padding-top: 2.5rem;
+    }
+
+}
   
-@media screen and (min-width : 0px) and (max-width : 640px) {
-    
+@media screen and (max-width : 860px) {
+
     .bluewaveblock {
         display: flex;
         flex-wrap: wrap;
-        /*background-color: darkcyan;*/
         justify-content: center;
         margin-left: 0;
         margin-right: 0;
@@ -75,6 +138,7 @@
 
     .bluewaveblock-cta {
         width: 100%;
+        padding: 0;
     }
 
     .bluewaveblock-img {
@@ -83,8 +147,8 @@
 
     .bluewaveblock-img img{
         width: 80%;
-        min-width: 80%;
-        margin-bottom: 2rem;
+        max-width: 250px;
+        min-width: 160px;
         background-color: darkgoldenrod;
         /*max-width: 685px;*/
     }
@@ -103,5 +167,25 @@
         justify-content: center;
     }
     */
+
+}
+
+@media screen and (max-width : 750px) {
+
+    .bluewaveblock {
+        height: 490px;
+    }
+
+    .bluewaveblock-wave {
+        margin-top: -1em;
+    }
+
+}
+
+@media screen and (max-width : 640px) {
+
+    .bluewaveblock {
+        height: 450px;
+    }
 
 }

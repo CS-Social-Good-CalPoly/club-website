@@ -1,38 +1,19 @@
 button.btn-filled {
-  border: 3px solid #023E8A;
-  padding: 1.3em 2.5em;
-  background: #023E8A;
+  border: 3px solid #2E404B;
+  padding: 10px 20px; /* 0.6rem 1.5rem */
+  background: #2E404B;
 }
 
 button.btn-filled a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 25px;
+  font-size: 18px; /* 1.2 rem */
 }
 
-@media screen and (max-device-width: 800px){
+@media screen and (max-device-width: 860px){
 
   button.btn-filled {
-    border-radius: 5px;
-    padding: .4em 1.3em;
-  }
-
-  button.btn-filled a {
-    font-weight: 500;
-    font-size: 0.8rem;
-  }
-
-}
-
-@media screen and (max-device-width: 640px){
-  button.btn-filled {
-    border-radius: 5px;
-    padding: .8em 1.8em;
-  }
-
-  button.btn-filled a {
-    font-weight: 500;
-    font-size: 1rem;
+    padding: 8px 18px; /* .3em 1.2em */
   }
 
 }
