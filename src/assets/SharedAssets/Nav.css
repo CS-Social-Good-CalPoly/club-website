@@ -1,3 +1,5 @@
+@import "../SharedAssets/Styles.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -6,8 +8,10 @@
 
 li {
   text-decoration: none;
+  /*
   color:#023E8A;
   font-size: 1.05em;
+  */
 }
 
 a {
@@ -49,7 +53,8 @@ nav .nav-links {
 
 nav .nav-links a {
   text-decoration: none;
-  color:#44746C;
+  color:var(--dark-green);
+  font-size: var(--nav);
 }
 
 nav .burger {
@@ -99,7 +104,6 @@ nav .burger {
     padding: 15px 20px 15px 15px;
     border-bottom: 2px solid #023d8a10;
     font-weight: 800;
-    font-size: 15px;
   }
 
   nav .nav-links li:first-of-type {

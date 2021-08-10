@@ -1,0 +1,32 @@
+:root {
+
+    /* ------ colors ------ */
+
+    --light-gray: #F5F5F5;
+    --light-green: #DCECE3;
+    --dark-green: #44746C;
+    --navy-blue: #2E404B;
+    --dark-blue: #406DA6;
+
+    /* ------ fonts ------ */
+
+    --nav: 16px;
+    --button: 18px;
+    --email-input: 16px;
+
+    /* e.g. "Join a project team" on home page */
+    --heading-one-desktop: 28px;    /* title */
+    --body-one-desktop: 20px;       /* paragraph description */
+    --heading-one-mobile: 24px; 
+    --body-one-mobile: 18px; 
+
+    --officer-name: 22px;
+    --officer-position: 16px;
+    --officer-email: 16px;
+
+    --footer-header-desktop: 16.5px;
+    --footer-body-desktop: 16px;
+    --footer-header-mobile: 13.5px;
+    --footer-body-mobile: 13px;
+
+}

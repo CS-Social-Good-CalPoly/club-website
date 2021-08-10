@@ -1,10 +1,12 @@
+@import "../SharedAssets/Styles.css";
+
 #mc_embed_signup{
-    background:#fff;
+    background:white;
     clear: center;
 }
 .mc-email{
     position: relative;
-    font-size: 16px; 
+    font-size: var(--email-input); 
     display: block; 
     padding: .4rem;
     /*margin:0 4% 10px 0; */
@@ -21,7 +23,7 @@
 }
 
 #mc_embed_signup button {
-    border: 1px solid #2E404B;
+    border: 1px solid var(--navy-blue);
     -webkit-appearance: none;
 }
 
@@ -29,10 +31,10 @@
     position: absolute;
     border: 3px solid;
     padding: 15px 22px; /* 0.6rem 1.5rem */
-    background: #2E404B;
-    color: #ffffff;
+    background: var(--navy-blue);
+    color: white;
     text-align: center;
-    font-size: 18px;
+    font-size: var(--button);
     align-self: center;
     margin-left: 10.5rem;
 }

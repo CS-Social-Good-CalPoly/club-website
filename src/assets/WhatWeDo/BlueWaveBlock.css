@@ -1,3 +1,5 @@
+@import "../SharedAssets/Styles.css";
+
 .bluewaveblock-container {
     position: relative;
 }
@@ -12,7 +14,7 @@
     display: flex;
     margin-top: 0px;
     z-index: -1;
-    background-color: #F5F5F5;
+    background-color: var(--light-gray);
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 4.5rem;
@@ -149,24 +151,7 @@
         width: 80%;
         max-width: 250px;
         min-width: 160px;
-        background-color: darkgoldenrod;
-        /*max-width: 685px;*/
     }
-
-    /*
-    .bluewaveblock img {
-        max-width: 90%;
-        margin-bottom: 10px;
-    }
-
-    .bluewaveblock-img, .bluewaveblock-cta {
-        width: 100%;
-    }
-
-    .bluewaveblock-img {
-        justify-content: center;
-    }
-    */
 
 }
 

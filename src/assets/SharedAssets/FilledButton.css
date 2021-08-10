@@ -1,3 +1,5 @@
+@import "../SharedAssets/Styles.css";
+
 button.btn-filled {
   border: 3px solid #2E404B;
   padding: 10px 20px; /* 0.6rem 1.5rem */
@@ -7,13 +9,11 @@ button.btn-filled {
 button.btn-filled a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 18px; /* 1.2 rem */
+  font-size: var(--button); /* 1.2 rem */
 }
 
 @media screen and (max-device-width: 860px){
-
   button.btn-filled {
     padding: 8px 18px; /* .3em 1.2em */
   }
-
 }

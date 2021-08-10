@@ -23,9 +23,7 @@ export default function WhatWeDo() {
                 buttonText="Learn more" 
                 buttonStyle={"filled"} 
             />
-            <BlueNewsletterSubBox>
-                
-            </BlueNewsletterSubBox>
+            <BlueNewsletterSubBox/>
             <Footer/>
         </div>
     )

@@ -1,3 +1,5 @@
+@import "../SharedAssets/Styles.css";
+
 .officer-card {
     padding: 15px;
     /*background-color: bisque;*/
@@ -8,7 +10,6 @@
     width: auto;
     max-width: 200px;
     height: auto;
-    background-color: bisque;
     margin-bottom: 12px;
     border-radius: 5px;
 }
@@ -17,32 +18,32 @@
     max-width: 36px;
     max-height: 36px;
     position: absolute; 
-    bottom: 90px; 
+    bottom: 85px; 
     right: 4px;
 }
 
 #name, #position, #email {
     padding: 0 3px;
-    text-align: left;
-    color: #023E8A;
+    text-align: center;
+    color: var(--navy-blue);
 }
 
 #name {
     font-weight: bold;
-    font-size: 25px;
+    font-size: var(--officer-name);
     margin-bottom: 8px;
 }
 
 #position {
     font-style: italic;
-    font-size: 18px;
+    font-size: var(--officer-position);
     font-weight: medium;
     margin-bottom: -2px;
 }
 
 #email {
     opacity: 0.8;
-    /* margin-top: 25px; */
+    font-size: var(--officer-email);
     margin-top: 5px;
-    font-size: 15px;
+    color: var(--dark-blue);
 }

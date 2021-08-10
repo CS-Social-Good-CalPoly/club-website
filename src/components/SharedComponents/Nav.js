@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../assets/SharedAssets/Nav.css';
-import imager from '../../images/CSSG.svg';
+import logoDesktop from '../../images/CSSG.svg';
+import logoMobile from '../../images/logo-mobile.svg';
 import menu from '../../images/menu_24px.svg';
 import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
@@ -11,7 +12,7 @@ export default function Nav() {
     return (
         <div>
             <nav className="nav-bar" >
-                <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {imager} alt="temp-logo" /></Link></li> 
+                <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {logoDesktop} alt="temp-logo" /></Link></li> 
                 <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}} onClick={()=>setOpen(!open)}>
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>

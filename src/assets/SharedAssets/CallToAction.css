@@ -1,16 +1,17 @@
+@import "../SharedAssets/Styles.css";
+
 .call-to-action {
   width: 440px;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /*background-color: rgb(51, 139, 0);*/
 }
 
 .call-to-action h2 {
   color: #2E404B;
   text-align: left;
-  font-size: 28px; /* 1.8 rem */
+  font-size: var(--heading-one-desktop); 
   font-weight: 600;
   line-height: 60px;
   margin-bottom: 20px;
@@ -19,7 +20,7 @@
 .call-to-action p {
   color: #2E404B;
   text-align: left;
-  font-size: 20px; /* 1.2 rem */
+  font-size: var(--body-one-desktop);
   font-weight: 400;
   line-height: 35px;
   margin-bottom: 40px;
@@ -51,12 +52,12 @@
 @media screen and (max-device-width: 640px){
 
   .call-to-action h2 {
-    font-size: 24px; /* 1.5 rem */
+    font-size: var(--heading-one-mobile); 
   }
 
   .call-to-action p {
     line-height: 28px;
-    font-size: 18px; /* 1 rem */
+    font-size: var(--body-one-mobile); 
   }
 
 }

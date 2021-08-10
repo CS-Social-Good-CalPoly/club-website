@@ -2,6 +2,7 @@ import React from 'react'
 import darkBlue from './../../images/dark-blue-wave.svg';
 import lightBlue from './../../images/gray-wave.svg';
 import footerDarkBlue from './../../images/footer-dark-blue-wave.svg';
+import lightGreen from './../../images/light-green-wave.svg';
 
 /*
  * props
@@ -13,6 +14,7 @@ const Waves = (props) => {
     let wave;
     if (color === 'dark-blue') wave = darkBlue;
     else if (color === 'light-blue') wave = lightBlue;
+    else if (color === 'light-green') wave = lightGreen;
     else wave = footerDarkBlue;
 
     return (

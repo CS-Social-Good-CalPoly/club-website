@@ -1,5 +1,7 @@
+@import "../SharedAssets/Styles.css";
+
 .blue-newsletter {
-  background: #F5F5F5;
+  background: var(--light-gray);
   background-image: url('../../images/background-shapes-desktop.svg');
   height: 380px;
 }
@@ -21,14 +23,14 @@
 .blue-newsletter h2 {
   margin-top: 50px;
   margin-bottom: 20px;
-  font-size: 28px;
+  font-size: var(--heading-one-desktop);
   font-weight: 700;
-  color: #2E404B;
+  color: var(--navy-blue);
 }
 
 .blue-newsletter h4 {
-  color: #567860;
-  font-size: 20px;
+  color: var(--dark-green);
+  font-size: var(--body-one-desktop);
   margin: 0 auto 30px;
 }
 
@@ -85,10 +87,10 @@
   }
 
   .blue-newsletter h2 {
-    font-size: 1.6rem;
+    font-size: var(--heading-one-mobile);
   }
 
   .blue-newsletter h4 {
-    font-size: 1.1rem;
+    font-size: var(--body-one-mobile);
   }
 }

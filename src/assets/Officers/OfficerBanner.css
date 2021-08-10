@@ -1,21 +1,27 @@
+@import "../SharedAssets/Styles.css";
+
 .officerbanner-container {
+    margin-top: -13em;
     position: relative;
-    margin-top: -12em;
+    background-image: url('../../images/background-shapes-desktop.svg');
+    /*background-size: 100% 80px;*/
 }
 
 .officerbanner-wave {
-    width: 100%;
+    margin-top: -5em;
+    max-height: 150px;
     height: 100%;
+    width: 100%;
     position: relative;
-    margin-top: -12em;
     z-index: -10;
+    /*background-color: aqua;*/
 }
 
-h1 {
-    color: #023E8A;
-    font-size: 35px;
+.officerbanner h1 {
+    color: var(--navy-blue);
+    font-size: var(--heading-one-desktop);
     font-weight: bold;
-    margin-top: 11%;
+    /*margin-top: 11%;*/
 }
 
 .officerbanner {
@@ -23,7 +29,7 @@ h1 {
     display: flex;
     margin-top: 10%;
     z-index: -1;
-    background-color: #CAF0F8;
+    background-color: var(--light-green);
     padding: 20px;
     padding-top: 5rem;
     justify-content: center;
@@ -36,32 +42,31 @@ h1 {
         margin-top: -10em;
     }
     .officerbanner-wave {
-        margin-top: -10em;
+        margin-top: -3em;
     }
-}
-
-@media screen and (max-width : 1300px) {
-    .officerbanner-container {
-        margin-top: -8em;
-    }
-    .officerbanner-wave {
-        margin-top: -8em;
-    }
-}
-
-@media screen and (max-width : 1000px) {
-    .officerbanner-container {
-        margin-top: -6em;
-    }
-    
-    .officerbanner-wave {
-        margin-top: -4em;
-    }
-
+    /*
     h1 {
-        font-size: 30px;
+        transform: scale(0.9);
+    }
+    */
+}
+
+@media screen and (max-width : 1200px) {
+    .officerbanner-container {
+        margin-top: -8em;
+    }
+    .officerbanner-wave {
+        margin-top: -1em;
     }
 }
+
+@media screen and (max-width : 900px) {
+    .officerbanner-container {
+        margin-top: -6.5em;
+        background-image: url('../../images/background-shapes-mobile.svg');
+    }
+}
+
   
 @media screen and (min-width : 0px) and (max-width : 640px) {
     .officerbanner {
@@ -71,13 +76,12 @@ h1 {
         margin-left: 0;
         margin-right: 0;
         /*margin-top: -7em;*/
-
     }
-    /*
-    .officerbanner-wave {
-        margin-top: -3em;
-    }*/
-    h1 {
-        margin-top: 80px;
+    .officerbanner-container {
+        z-index: -10;
+        margin-top: -5em;
+    }
+    .officerbanner h1 {
+        font-size: var(--heading-one-mobile);
     }
 }

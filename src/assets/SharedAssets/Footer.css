@@ -1,21 +1,23 @@
+@import "../SharedAssets/Styles.css";
+
 .footer-container h3 {
     margin-top: 10px;
-    font-size: 1.1em;
+    font-size: var(--footer-header-desktop); /* 1.1em */
     font-weight: bold;
-    color: #44746C;
+    color: var(--dark-green);
 }
 
 .footer-container p {
-    font-size: 1em;
+    font-size: var(--footer-body-desktop); /* 1em */
     font-weight: 500;
-    color: #44746C;
+    color: var(--dark-green);
     opacity: 40%;
 }
 
 .footer-container {
     padding: 1.3em;
     height: 100%;
-    background-color: #DCECE3;
+    background-color: var(--light-green);
 }
 
 .socialmedia-parent {
@@ -45,7 +47,7 @@
 
 @media screen and (max-device-width: 380px) {
     .footer-container h3 {
-        font-size: 0.9em;
+        font-size: var(--footer-header-mobile); /* 0.9 em */
     }
     .socialmedia-parent {
         margin-top: 0.4em;
@@ -56,6 +58,6 @@
         margin-bottom: 12px;
     }
     .footer-container p {
-        font-size: 0.8em;
+        font-size: var(--footer-body-mobile); /* 0.8 em */
     }
 }
