@@ -24,9 +24,7 @@ const BlueWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonSty
                 
                 </div>
                 <div className="bluewaveblock-wave">
-                        <Waves 
-                            color='light-blue'
-                        />
+                    <Waves color='light-blue'/>
                 </div>
             </div>
         </>

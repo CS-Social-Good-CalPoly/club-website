@@ -1,5 +1,10 @@
 :root {
 
+    --wwdb-line-height-desktop: 40px;
+    --h2-line-height: 60px;
+    --p-line-height-desktop: 35px;
+    --p-line-height-mobile: 28px;
+
     /* ------ colors ------ */
 
     --light-gray: #F5F5F5;
@@ -13,6 +18,10 @@
     --nav: 16px;
     --button: 18px;
     --email-input: 16px;
+
+    /* welcome banner */
+    --upper-heading: 22px;
+    --lower-heading: 48px;
 
     /* e.g. "Join a project team" on home page */
     --heading-one-desktop: 28px;    /* title */
