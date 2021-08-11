@@ -1,5 +1,10 @@
-:root {
+/* 
+    notes:
+    - @media screen and (max-width : 1700px) --> transform: scale(0.9); - 
+    - @media screen and (max-width : 1300px) --> transform: scale(0.8);
+*/
 
+:root {
     --wwdb-line-height-desktop: 40px;
     --h2-line-height: 60px;
     --p-line-height-desktop: 35px;
