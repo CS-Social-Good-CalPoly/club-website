@@ -1,0 +1,61 @@
+@import "../SharedAssets/Styles.css";
+
+.tsa {
+    display: flex;
+    justify-content: center;
+    column-gap: 8%;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+    align-items: center;
+    font-size: var(--body-one-desktop);
+    /*
+    margin: 0 10%;
+    */
+}
+
+.tsa-left img {
+    width: 75%;
+    min-width: 120px;
+    color: var(--dark-grey);
+}
+
+.tsa-right {
+    margin-top: 10px;
+    color: var(--dark-grey);
+    max-width: 70%;
+    text-align: left;
+}
+
+@media screen and (max-width : 1700px) {
+    .tsa {
+        transform: scale(0.9);
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width : 1300px) {
+    .tsa {
+        column-gap: 5px;
+    }
+    .tsa-right {
+        max-width: 80%;
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width : 1060px) {
+    .tsa {
+        margin-top: 20px;
+    }
+    .tsa-right {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 640px) {
+    .tsa-right {
+        max-width: 100%;
+        line-height: 28px;
+        font-size: var(--body-one-mobile); 
+    }
+}
