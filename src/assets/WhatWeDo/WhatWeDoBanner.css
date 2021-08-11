@@ -46,7 +46,7 @@
     z-index: -1;
 }
 
-.wwdb-bottom .dark-blue-dots {
+.wwdb-bottom .light-green-dots {
     transform: scale(0.9);
     text-align: left;
     margin-top: -50px;
@@ -57,7 +57,7 @@
 @media screen and (max-width : 1700px) {
 
     .upper, .lower, .wwdb-description p, 
-    .wwdb-top, .wwdb-bottom .dark-blue-dots {
+    .wwdb-top, .wwdb-bottom .light-green-dots {
         transform: scale(0.9);
     }
 
@@ -70,7 +70,7 @@
         margin-top: 20px;
     }
 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         margin-top: -60px;
         margin-bottom: 200px;
     }
@@ -79,7 +79,7 @@
 
 @media screen and (max-width : 1400px) {
 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         margin-top: -100px;
         margin-bottom: 240px;
     }
@@ -89,7 +89,7 @@
 @media screen and (max-width : 1300px) {
 
     .upper, .lower, .wwdb-description p, 
-    .wwdb-top, .wwdb-bottom .dark-blue-dots {
+    .wwdb-top, .wwdb-bottom .light-green-dots {
         transform: scale(0.8);
     }
 
@@ -101,7 +101,7 @@
 
 @media screen and (max-width : 980px) {
 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         margin-top: -100px;
         margin-bottom: 280px;
     }
@@ -115,11 +115,11 @@
 @media screen and (max-device-width: 700px){
 
     .upper, .lower, .wwdb-top, 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         transform: scale(0.7);
     }
 
-    .wwdb-top, .wwdb-bottom .dark-blue-dots {
+    .wwdb-top, .wwdb-bottom .light-green-dots {
         transform: scale(0.55);
     }
 
@@ -138,7 +138,7 @@
         font-size: var(--body-one-mobile); 
     }
 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         margin-top: -140px;
         margin-bottom: 300px;
         margin-left: -120px;
@@ -161,7 +161,7 @@
 
 @media screen and (max-device-width: 450px){
 
-    .wwdb-top, .wwdb-bottom .dark-blue-dots {
+    .wwdb-top, .wwdb-bottom .light-green-dots {
         transform: scale(0.4);
     }
 
@@ -178,7 +178,7 @@
         font-size: var(--body-one-mobile); 
     }
 
-    .wwdb-bottom .dark-blue-dots {
+    .wwdb-bottom .light-green-dots {
         margin-top: -160px;
         margin-bottom: 330px;
     }

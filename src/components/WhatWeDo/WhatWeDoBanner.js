@@ -8,7 +8,7 @@ const WhatWeDoBanner = () => {
         <div className="wwdb">
             <div className="wwdb-container">
                 <div className="wwdb-top">
-                    <Dots color="dark-blue"/>
+                    <Dots color="light-green"/>
                 </div>
                 <div className="wwdb-description">
                     <h2 className="upper">Welcome to Cal Poly SLO</h2>
@@ -18,7 +18,7 @@ const WhatWeDoBanner = () => {
                 </div>
             </div>
             <div className="wwdb-bottom">
-                <Dots className="bottom-dots" color="dark-blue"/>
+                <Dots className="bottom-dots" color="light-green"/>
                 <Waves className="bottom-wave" color="dark-green"/>
             </div>
         </div>
