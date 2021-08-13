@@ -21,7 +21,7 @@
 
 .applications {
   font-size: var(--body-one-desktop);
-  font-weight: bold;
+  font-weight: var(--custom-bold);;
   text-align: left;
 }
 

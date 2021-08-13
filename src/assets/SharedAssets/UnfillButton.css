@@ -17,7 +17,7 @@ button.btn-unfill a {
   }
 
   button.btn-unfill a {
-    font-weight: 500;
+    font-weight: var(--custom-medium);;
     font-size: 1.2rem;
   }
 }

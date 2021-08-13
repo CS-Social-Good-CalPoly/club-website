@@ -29,7 +29,7 @@
 
 .project-card h2 {
   font-size: var(--heading-one-desktop);
-  font-weight: bold;
+  font-weight: var(--custom-bold);;
   transition: all ease-in 100ms;
 }
 
@@ -40,7 +40,7 @@
 
 .project-card h3 {
   font-size: var(--body-one-desktop);
-  font-weight: bold;
+  font-weight: var(--custom-bold);;
 }
 
 /* Unused right now */

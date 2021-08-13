@@ -48,7 +48,7 @@ nav .nav-links {
   margin-top: 1rem;
   width: 100%;
   list-style: none;
-  font-weight: 800;
+  font-weight: var(--custom-bold);;
 }
 
 nav .nav-links a {

@@ -12,7 +12,7 @@
   color: #2E404B;
   text-align: left;
   font-size: var(--heading-one-desktop); 
-  font-weight: 600;
+  font-weight: var(--custom-bold);;
   line-height: 60px;
   margin-bottom: 20px;
 }
@@ -21,7 +21,7 @@
   color: #2E404B;
   text-align: left;
   font-size: var(--body-one-desktop);
-  font-weight: 400;
+  font-weight: var(--custom-light);;;
   line-height: 35px;
   margin-bottom: 40px;
 }

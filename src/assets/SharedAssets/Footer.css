@@ -3,13 +3,13 @@
 .footer-container h3 {
     margin-top: 10px;
     font-size: var(--footer-header-desktop); /* 1.1em */
-    font-weight: bold;
+    font-weight: var(--custom-bold);;
     color: var(--dark-green);
 }
 
 .footer-container p {
     font-size: var(--footer-body-desktop); /* 1em */
-    font-weight: 500;
+    font-weight: var(--custom-medium);;
     color: var(--dark-green);
     opacity: 40%;
 }

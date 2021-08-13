@@ -10,6 +10,9 @@
 
     /* ------ fonts ------ */
 
+    --custom-bold: 600;
+    --custom-medium: 400;
+
     --nav: 16px;
     --button: 18px;
     --email-input: 16px;
