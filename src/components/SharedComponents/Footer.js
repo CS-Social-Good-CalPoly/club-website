@@ -16,7 +16,7 @@ const Footer = () => {
                 <a href="#" className="socialmedia-child">
                     <img src={discord}/>
                 </a> 
-                <a href="#" className="socialmedia-child">
+                <a href="https://www.facebook.com/CSSGCalPoly/" className="socialmedia-child">
                     <img src={facebook}/>
                 </a> 
                 <a href="#" className="socialmedia-child">

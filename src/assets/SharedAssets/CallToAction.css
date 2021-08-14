@@ -56,7 +56,7 @@
   }
 
   .call-to-action p {
-    line-height: 28px;
+    line-height: var(--p-line-height-mobile);
     font-size: var(--body-one-mobile); 
   }
 
