@@ -13,7 +13,7 @@ import WhatWeDoBanner from './WhatWeDoBanner';
 export default function WhatWeDo() {
     return (
         <div>   
-            <WhatWeDoBanner></WhatWeDoBanner> 
+            <WhatWeDoBanner/> 
             <BlueWaveBlock
                 imageUrl={project_photo} 
                 title="Join our team" 

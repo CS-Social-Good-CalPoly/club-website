@@ -1,10 +1,5 @@
-/* 
-    notes:
-    - @media screen and (max-width : 1700px) --> transform: scale(0.9); - 
-    - @media screen and (max-width : 1300px) --> transform: scale(0.8);
-*/
-
 :root {
+
     --wwdb-line-height-desktop: 40px;
     --h2-line-height: 60px;
     --p-line-height-desktop: 35px;
@@ -20,6 +15,10 @@
 
     /* ------ fonts ------ */
 
+    --custom-light: 400;
+    --custom-medium: 500;
+    --custom-bold: 600;
+
     --nav: 16px;
     --button: 18px;
     --email-input: 16px;
@@ -29,7 +28,7 @@
     --lower-heading: 48px;
 
     /* e.g. "Join a project team" on home page */
-    --heading-one-desktop: 28px;    /* title */
+    --heading-one-desktop: 32px;    /* title */
     --body-one-desktop: 20px;       /* paragraph description */
     --heading-one-mobile: 24px; 
     --body-one-mobile: 18px; 
