@@ -12,8 +12,18 @@ export default function Nav() {
     return (
         <div>
             <nav className="nav-bar" >
-                <li style= {{ 'list-style' : 'none' }}><Link to ="/WhatWeDo"><img className="logo" src= {logoDesktop} alt="temp-logo" /></Link></li> 
-                <ul className="nav-links" style={{transform: open ? "translateY(0px)" : ""}} onClick={()=>setOpen(!open)} >
+                <li style= {{ 'list-style' : 'none' }}>
+                    <Link to ="/WhatWeDo">
+                        <img 
+                            className="logo" 
+                            src= {logoDesktop} 
+                            alt="temp-logo" 
+                        />
+                    </Link>
+                </li> 
+                <ul className="nav-links" 
+                    style={{transform: open ? "translateY(0px)" : ""}} 
+                    onClick={()=>setOpen(!open)} >
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>
                     <li><Link to ="/Projects">Project</Link></li>
