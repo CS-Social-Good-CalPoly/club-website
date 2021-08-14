@@ -1,13 +1,13 @@
 .contactusbanner-container h3 {
     margin-top: 10px;
     font-size: 1.1em;
-    font-weight: bold;
+    font-weight: var(--custom-bold);;
     color: #44746C;
 }
 
 .contactusbanner-container p {
     font-size: 1em;
-    font-weight: 500;
+    font-weight: var(--custom-medium);;
     color: #44746C;
     opacity: 40%;
 }

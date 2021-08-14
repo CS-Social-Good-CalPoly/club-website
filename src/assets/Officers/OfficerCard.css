@@ -29,7 +29,7 @@
 }
 
 #name {
-    font-weight: bold;
+    font-weight: var(--custom-bold);;
     font-size: var(--officer-name);
     margin-bottom: 8px;
 }

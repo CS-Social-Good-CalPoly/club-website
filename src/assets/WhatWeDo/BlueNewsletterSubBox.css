@@ -24,7 +24,7 @@
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: var(--heading-one-desktop);
-  font-weight: 700;
+  font-weight: var(--custom-bold);;
   color: var(--navy-blue);
 }
 

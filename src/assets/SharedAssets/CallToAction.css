@@ -12,8 +12,8 @@
   color: #2E404B;
   text-align: left;
   font-size: var(--heading-one-desktop); 
-  font-weight: 600;
-  line-height: var(--h2-line-height);
+  font-weight: var(--custom-bold);;
+  line-height: 60px;
   margin-bottom: 20px;
 }
 
@@ -21,8 +21,8 @@
   color: #2E404B;
   text-align: left;
   font-size: var(--body-one-desktop);
-  font-weight: 400;
-  line-height: var(--p-line-height-desktop);
+  font-weight: var(--custom-light);;;
+  line-height: 35px;
   margin-bottom: 40px;
 }
 

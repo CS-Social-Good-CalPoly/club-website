@@ -20,7 +20,7 @@
 .officerbanner h1 {
     color: var(--navy-blue);
     font-size: var(--heading-one-desktop);
-    font-weight: bold;
+    font-weight: var(--custom-bold);;
     /*margin-top: 11%;*/
 }
 

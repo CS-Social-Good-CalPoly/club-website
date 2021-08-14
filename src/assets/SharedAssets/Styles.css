@@ -15,9 +15,8 @@
 
     /* ------ fonts ------ */
 
-    --custom-light: 400;
-    --custom-medium: 500;
     --custom-bold: 600;
+    --custom-medium: 400;
 
     --nav: 16px;
     --button: 18px;

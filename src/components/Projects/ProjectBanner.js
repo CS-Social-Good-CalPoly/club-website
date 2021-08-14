@@ -3,8 +3,7 @@ import '../../assets/Projects/ProjectBanner.css'
 import Waves from '../SharedComponents/Waves'
 import Dots from '../SharedComponents/Dots'
 import CallToAction from '../SharedComponents/CallToAction'
-import image from '../../images/project-card-default.png'
-
+import image from '../../images/project-team-photo.png';
 const ProjectBanner = () => {
     return (
         <div className="project-banner">
@@ -14,10 +13,11 @@ const ProjectBanner = () => {
                     <CallToAction 
                         title="Vera"
                         text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies. "    
-                        buttonUrl="/Projects"
-                        buttonText="Learn More"
-                        buttonStyle="unfilled"
+                        // buttonUrl="/Projects"
+                        // buttonText="Learn More"
+                        // buttonStyle="unfilled"
                     />
+                    <p className="applications">Applications open September 20, 2021</p>
                 </div>
                 <div className="pb-container-right">
                     <Dots color="light-blue" />
@@ -25,7 +25,7 @@ const ProjectBanner = () => {
                 </div>
             </div>
             <div className="pb-bottom">
-                <Waves color="light-blue" />
+                <Waves color="light-green" />
                 <Dots color="light-blue" />
             </div>
         </div>
