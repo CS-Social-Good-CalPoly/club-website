@@ -4,6 +4,8 @@ import linkedin from "../../images/linkedin.svg"
 import discord from "../../images/discord.svg"
 import facebook from "../../images/facebook.svg"
 import slack from "../../images/slack.svg"
+import instagram from "../../images/instagram.svg"
+import linktree from "../../images/linktree.svg"
 
 const Footer = () => {
     return (
@@ -21,6 +23,12 @@ const Footer = () => {
                 </a> 
                 <a href="#" className="socialmedia-child">
                     <img src={slack}/>
+                </a> 
+                <a href="#" className="socialmedia-child">
+                    <img src={instagram}/>
+                </a> 
+                <a href="#" className="socialmedia-child">
+                    <img src={linktree}/>
                 </a> 
             </div>
             <p>© 2021 Cal Poly SLO CS + Social Good.</p>
