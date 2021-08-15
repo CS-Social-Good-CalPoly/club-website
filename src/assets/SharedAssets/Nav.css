@@ -23,13 +23,12 @@ a {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
-  font-family: 'Poppins';
-  display: flex;
+  font-family: 'Poppins', serif;
   height: 70px;
   overflow: auto;
   overflow-x: hidden;
   background: white;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);
 }
 
 .nav-bar img {
@@ -49,6 +48,7 @@ nav .nav-links {
   width: 100%;
   list-style: none;
   font-weight: var(--custom-bold);;
+  z-index: 999;
 }
 
 nav .nav-links a {
@@ -96,7 +96,7 @@ nav .burger {
     width: 30%;
     transform: translateY(-500px);
     border-radius: 10px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);  
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
 
   nav .nav-links li {

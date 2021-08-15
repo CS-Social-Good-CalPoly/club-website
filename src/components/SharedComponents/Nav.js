@@ -10,7 +10,7 @@ export default function Nav() {
     return (
         <div>
             <nav className="nav-bar">
-                <li style={{'list-style': 'none'}}>
+                <li style={{'listStyle': 'none'}}>
                     <Link to="/">
                         <img
                             className="logo"
@@ -31,7 +31,7 @@ export default function Nav() {
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}
-                <li style={{'list-style': 'none'}}><img onClick={() => setOpen(!open)} className="burger" src={menu}
+                <li style={{'listStyle': 'none'}}><img onClick={() => setOpen(!open)} className="burger" src={menu}
                                                         alt="menu"/></li>
             </nav>
         </div>
