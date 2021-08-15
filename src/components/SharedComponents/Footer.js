@@ -12,9 +12,9 @@ const Footer = () => {
         <div className="footer-container">
             <h3>Connect with us on social media!</h3>
             <div className="socialmedia-parent">              
-                <a href="#" className="socialmedia-child">
+                {/* <a href="#" className="socialmedia-child">
                     <img src={linkedin}/>
-                </a>
+                </a> */}
                 <a href="#" className="socialmedia-child">
                     <img src={discord}/>
                 </a> 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="#" className="socialmedia-child">
                     <img src={slack}/>
                 </a> 
-                <a href="#" className="socialmedia-child">
+                <a href="https://www.instagram.com/calpoly.cssg/" className="socialmedia-child">
                     <img src={instagram}/>
                 </a> 
                 <a href="#" className="socialmedia-child">
