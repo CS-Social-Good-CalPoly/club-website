@@ -12,7 +12,7 @@
 }
 
 .wwdb-description h2 {
-    font-weight: 600;
+    font-weight: var(--custom-bold);;
     line-height: var(--wwdb-line-height-desktop);
 }
 
