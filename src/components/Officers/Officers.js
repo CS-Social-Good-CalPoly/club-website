@@ -30,7 +30,55 @@ export default function Officers() {
             title: "Community Officer",
             email: "@gmail.com",
             alt: "Photo of Srirag"
-        }
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
+        {
+            link: "example.com",
+            photo: srirag_photo,
+            name: "Srirag Vuppala",
+            title: "Community Officer",
+            email: "@gmail.com",
+            alt: "Photo of Srirag"
+        },
     ]
 
     return (

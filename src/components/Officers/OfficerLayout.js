@@ -1,21 +1,18 @@
 import React from 'react'
 import OfficerCard from './OfficerCard';
-import srirag_photo from '../../images/srirag.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import '../../assets/Officers/OfficerLayout.css'
 
 const OfficerLayout = ({cardInfo}) => {
-
 
     return (
         <div>
             <Container>
-                <Row>
-                    <Col>
+                    <div className="officer-layout-container">
                         {
                             cardInfo &&
-                                cardInfo.map((card) => (
+                            cardInfo.map((card) => (
                                     <OfficerCard
                                         link={card.link}
                                         photo={card.photo}
@@ -27,8 +24,7 @@ const OfficerLayout = ({cardInfo}) => {
                                 )
                             )
                         }
-                    </Col>
-                </Row>
+                    </div>
             </Container>
         </div>
     )
