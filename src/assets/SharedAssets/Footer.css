@@ -16,7 +16,7 @@
 
 .footer-container {
     padding: 1.3em;
-    min-height: 20vh;
+    height: 20vh;
     background-color: var(--light-green);
 }
 
