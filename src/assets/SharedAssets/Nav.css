@@ -30,6 +30,10 @@ a {
   overflow-x: hidden;
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .nav-bar img {

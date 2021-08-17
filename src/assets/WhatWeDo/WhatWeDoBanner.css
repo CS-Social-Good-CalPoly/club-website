@@ -1,7 +1,7 @@
 @import "../SharedAssets/Styles.css";
 
 .wwdb-container {
-    padding-top: 4%;
+    padding-top: 11%;
     background-color: var(--dark-green);
     margin-bottom: 70px;
 }
@@ -108,6 +108,10 @@
 
     .wwdb-description h2 {
         line-height: var(--p-line-height-desktop);
+    }
+
+    .wwdb-container {
+        padding-top: 18%;
     }
 
 }
