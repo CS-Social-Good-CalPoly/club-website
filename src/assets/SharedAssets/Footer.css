@@ -20,6 +20,10 @@
     background-color: var(--light-green);
 }
 
+.footer-content {
+    padding: 15px;
+}
+
 .socialmedia-parent {
     margin-top: 1.1em;
     display: flex;
