@@ -26,7 +26,7 @@ export default function Nav() {
                     onClick={()=>setOpen(!open)} >
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>
-                    <li><Link to ="/Projects">Project</Link></li>
+                    <li><Link to ="/Projects">Projects</Link></li>
                     <li><Link to ="/Calendar">Calendar</Link></li>
                     <li><Link to ="/Officers">Officers</Link></li>
                     <li><Link to ="">Contact Us</Link></li>

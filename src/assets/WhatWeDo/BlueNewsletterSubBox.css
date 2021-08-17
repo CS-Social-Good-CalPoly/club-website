@@ -39,7 +39,7 @@
   background: transparent;
 }
 
-@media screen and (max-width : 1700px) {
+@media screen and (max-width: 1700px) {
 
   .blue-news-container {
     transform: scale(0.9);
@@ -47,7 +47,7 @@
 
 }
 
-@media screen and (max-width : 1300px) {
+@media screen and (max-width: 1300px) {
 
   .blue-news-container {
     transform: scale(0.8);
@@ -55,7 +55,7 @@
 
 }
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
   .blue-newsletter {
     display: flex;
     justify-content: center;

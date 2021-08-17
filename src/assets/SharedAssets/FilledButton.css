@@ -4,6 +4,9 @@ button.btn-filled {
   border: 3px solid #2E404B;
   padding: 10px 20px; /* 0.6rem 1.5rem */
   background: #2E404B;
+  width: 35%;
+  min-width: 150px;
+  max-width: 200px;
 }
 
 button.btn-filled a {
@@ -12,8 +15,8 @@ button.btn-filled a {
   font-size: var(--button); /* 1.2 rem */
 }
 
-@media screen and (max-device-width: 860px){
+@media screen and (max-width: 860px){
   button.btn-filled {
-    padding: 8px 18px; /* .3em 1.2em */
+    padding: 10px 20px; /* .3em 1.2em */
   }
 }
