@@ -8,20 +8,38 @@ import slack from "../../images/slack.svg"
 const Footer = () => {
     return (
         <div className="footer-container">
+            <div className="footer-content">
+                <h3>Connect with us on social media!</h3>
+                <div className="socialmedia-parent">
+                    <a href="#" className="socialmedia-child">
+                        <img src={linkedin}/>
+                    </a>
+                    <a href="#" className="socialmedia-child">
+                        <img src={discord}/>
+                    </a>
+                    <a href="https://www.facebook.com/CSSGCalPoly/" className="socialmedia-child">
+                        <img src={facebook}/>
+                    </a>
+                    <a href="#" className="socialmedia-child">
+                        <img src={slack}/>
+                    </a>
+                </div>
+                <p>© 2021 Cal Poly SLO CS + Social Good.</p>
+            </div>
             <h3>Connect with us on social media!</h3>
-            <div className="socialmedia-parent">              
+            <div className="socialmedia-parent">
                 {/* <a href="#" className="socialmedia-child">
                     <img src={linkedin}/>
                 </a> */}
                 <a href="#" className="socialmedia-child">
                     <img src={discord}/>
-                </a> 
+                </a>
                 <a href="https://www.facebook.com/CSSGCalPoly/" className="socialmedia-child">
                     <img src={facebook}/>
-                </a> 
+                </a>
                 <a href="#" className="socialmedia-child">
                     <img src={slack}/>
-                </a> 
+                </a>
                 <a href="https://www.instagram.com/calpoly.cssg/" className="socialmedia-child">
                     <img src={instagram}/>
                 </a>
