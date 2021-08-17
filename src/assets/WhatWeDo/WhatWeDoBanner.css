@@ -1,7 +1,7 @@
 @import "../SharedAssets/Styles.css";
 
 .wwdb-container {
-    padding-top: 11%;
+    padding-top: 9%;
     background-color: var(--dark-green);
     margin-bottom: 70px;
 }
@@ -84,6 +84,10 @@
         margin-bottom: 240px;
     }
 
+    .wwdb-container {
+        padding-top: 11%;
+    }
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -111,7 +115,7 @@
     }
 
     .wwdb-container {
-        padding-top: 18%;
+        padding-top: 14%;
     }
 
 }
@@ -152,6 +156,10 @@
         line-height: var(--p-line-height-mobile);
     }
 
+    .wwdb-container {
+        padding-top: 17%;
+    }
+
 }
 
 @media screen and (max-width: 640px){
@@ -159,6 +167,10 @@
     .wwdb-description p {
         margin-top: 0;
         line-height: var(--p-line-height-mobile);
+    }
+
+    .wwdb-container {
+        padding-top: 20%;
     }
   
   }
@@ -185,6 +197,10 @@
     .wwdb-bottom .light-green-dots {
         margin-top: -160px;
         margin-bottom: 330px;
+    }
+
+    .wwdb-container {
+        padding-top: 24%;
     }
 
 }
