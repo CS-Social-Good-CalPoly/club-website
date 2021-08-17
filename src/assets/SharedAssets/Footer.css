@@ -16,8 +16,12 @@
 
 .footer-container {
     padding: 1.3em;
-    height: 100%;
+    height: 20vh;
     background-color: var(--light-green);
+}
+
+.footer-content {
+    padding: 15px;
 }
 
 .socialmedia-parent {
