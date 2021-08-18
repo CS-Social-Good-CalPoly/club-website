@@ -47,7 +47,7 @@
     margin-top: 3px;
 }
 
-@media screen and (max-device-width: 380px) {
+@media screen and (max-width: 380px) {
     .footer-container h3 {
         font-size: var(--footer-header-mobile); /* 0.9 em */
     }

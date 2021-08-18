@@ -16,7 +16,7 @@
   margin: 5rem;
 }
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
   .sponsors-container {
     flex-direction: column;
   }

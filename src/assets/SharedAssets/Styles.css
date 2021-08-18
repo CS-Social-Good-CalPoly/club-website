@@ -8,8 +8,11 @@
     /* ------ colors ------ */
 
     --light-gray: #F5F5F5;
+    --dark-gray: #9d9d9d;
+
     --light-green: #DCECE3;
     --dark-green: #44746C;
+
     --navy-blue: #2E404B;
     --dark-blue: #406DA6;
 
@@ -29,7 +32,7 @@
     /* e.g. "Join a project team" on home page */
     --heading-one-desktop: 32px;    /* title */
     --body-one-desktop: 20px;       /* paragraph description */
-    --heading-one-mobile: 24px; 
+    --heading-one-mobile: 27px; 
     --body-one-mobile: 18px; 
 
     --officer-name: 22px;
