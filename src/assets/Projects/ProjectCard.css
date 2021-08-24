@@ -4,7 +4,8 @@
 .project-card {
   transform: scale(0.92);
   background: white;
-  width: 32rem;
+  max-width: 32rem;
+  min-width: 32rem;
   /* border-radius: 0.4rem; */
   margin: 1rem;
   overflow: hidden;

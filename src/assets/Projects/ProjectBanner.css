@@ -2,21 +2,27 @@
 
 .pb-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: center;
   background: var(--light-green);
-  padding-top: 100px;
+  z-index: 10;
+  /* background-color: aqua; */
+  margin-top: -3rem;
 }
 
 .project-banner {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .pb-container-left {
-  width: 50%;
   display: flex;
-  flex-direction: column;
-  text-align: right;
-  padding-left: 20%;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 20;
+}
+
+.all-text { 
+  background-color: none;
 }
 
 .applications {
@@ -26,27 +32,54 @@
 }
 
 .pb-container-right {
-  width: 55%;
-  text-align: left
+  display: flex;
+  /* background-color: aqua; */
 }
 
 .pb-container-right img {
-  max-width: 520px;
-  min-width: 450px;
-  width: 70%;
-  position: relative;
+  max-width: 500px;
   z-index: 2;
-  margin-top: -7.5rem;
 }
 
-.pb-container-right .light-blue-dots {
-  margin-left: 20rem;
-  margin-top: -1rem;
-  width: 50%;
+.light-blue-dots svg {
+  opacity: 60%;
 }
 
-.pb-container-right .light-blue-dots svg {
-  width: 100%;
+.light-blue-dots svg ellipse {
+  z-index: -100;
+  /* background-color: aqua; */
+}
+
+.pb-top .light-blue-dots {
+  /* width: 100%; */
+  background-color: var(--light-green);
+  z-index: -100;
+}
+
+/* .light-blue-dots svg {
+  background-color: aqua;
+} */
+
+.pb-bottom .light-blue-dots {
+  /* width: 25%; */
+  display: flex;
+  justify-content: flex-start;
+  z-index: -100;
+  padding-top: 1.4rem;
+}
+
+.pb-top .light-blue-dots svg {
+  margin-top: 2rem;
+  margin-left: 65%;
+  overflow: hidden;
+  /* margin-left: 20rem; */
+}
+
+.pb-bottom .light-blue-dots svg {
+  margin-top: -12rem;
+  margin-left: 8%;
+  overflow: hidden;
+  /* width: 100%; */
 }
 
 .pb-container-left .featured-project {
@@ -57,33 +90,203 @@
 
 .pb-bottom .waves {
   overflow: visible !important;
-  margin-top: -20px;
+  padding-top: -2rem;
+  /* margin-top: 0; */
   position: relative;
   z-index: -1;
 }
 
-.pb-bottom .light-blue-dots {
-  width: 25%;
-  display: flex;
-  justify-content: flex-start;
-}
+@media screen and (max-width: 1700px) {
 
-.pb-bottom .light-blue-dots svg {
-  margin-top: -10rem;
-  /*margin-left: -100px;*/
-  overflow: hidden;
-  width: 100%;
-}
-
-
-@media screen and (max-device-width: 640px){
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  .pb-container-left, .pb-container-right, 
+  .light-blue-dots svg {
+    transform: scale(0.9);
   }
 
+}
+
+@media screen and (max-width: 1300px) {
+ 
+  .pb-container-left, .pb-container-right, 
+  .light-blue-dots svg {
+    transform: scale(0.8);
+  }
+
+  .pb-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: flex-end;
+    margin-left: 50px;
+    margin-right: -40px;
+  }
+
+  .pb-container-right {
+    margin-right: 50px;
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-top: 3rem;
+    margin-left: 45%;
+    margin-bottom: -4%;
+  }
+  
+  .pb-bottom .light-blue-dots svg {
+    margin-left: 9%;
+    margin-top: -13rem;
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-top: 1rem;
+  }
+
+  .pb-bottom .waves {
+    margin-top: -2rem;
+    margin-bottom: -3rem;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  .pb-container-left {
+    margin-right: -50px;
+  }
+
+  .pb-container-right {
+    margin-left: -40px;
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-top: 1rem;
+    margin-bottom: -5rem;
+    margin-right: -18%;
+  }
+
+  .pb-bottom .light-blue-dots svg {
+    margin-left: -4%;
+    margin-top: -10rem;
+  }
+}
+
+@media screen and (max-width: 860px) {
+
   .pb-container {
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-text {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: left; */
+    /* text-align: left; */
+    margin-left: -3.5rem;
+  }
+
+  .call-to-action h2 {
+    margin-left: -23rem;
+    /* text-align: left; */
+    margin-bottom: 2rem;
+    /* background-color: rgb(0, 255, 21); */
+  }
+
+  .call-to-action p {
+    margin-top: 24rem;
+    width: 115%;
+    text-align: left;
+    /* background-color: aqua; */
+  }
+  
+  .pb-container-right img {
+    /* background-color: rgb(217, 255, 0); */
+    margin-top: -44rem;
+    height: 100%;
+  }
+
+  .pb-container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin: 0;
+  }
+
+  .pb-container-right {
+    margin: 0;
+  }
+
+  .pb-top .light-blue-dots svg {
+    /* margin-top: 3rem;
+    margin-left: 60%;
+    margin-bottom: -16%; */
+    margin-left: 20%;
+    background-color: none;
+  }
+  
+  .pb-bottom .light-blue-dots svg {
+    margin-left: 8%;
+    /* margin-top: -12rem; */
+    background-color: none;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .pb-container-right img {
+    transform: scale(0.9);
+    margin-top: -41rem;
+  }
+
+  .call-to-action p {
+    margin-top: 21rem;
+    margin-left: -5px;
+    padding-left: 0;
+    width: 103%;
+    text-align: left;
+    /* background-color: aqua; */
+  }
+
+  .all-text {
+    margin-left: 0;
+  }
+
+  .call-to-action h2 {
+    text-align: left;
+    margin-left: -24rem;
+  }
+
+  .light-blue-dots svg {
+    transform: scale(0.7);
+  }
+
+  .pb-top .light-blue-dots svg {
+    /* margin-top: 3rem;
+    margin-left: 60%;
+    margin-bottom: -16%; */
+    margin-bottom: -20%;
+    margin-right: -22%;
+    background-color: none;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .pb-container-right img {
+    transform: scale(0.75);
+  }
+
+  .all-text {
+    transform: scale(0.8);
+  }
+
+}
+
+/* @media screen and (max-width: 640px){
+
+  .pb-container {
     padding-top: 0;
     padding-bottom: 50px;
   }
@@ -108,8 +311,6 @@
   .pb-container-right .light-blue-dots {
     margin: auto;
     margin-bottom: -4rem;
-    /* margin-right: -10rem; */
-    width: 80%;
   }
 
   .pb-container .call-to-action {
@@ -120,12 +321,4 @@
     padding-top: 50px;
   }
 
-  .pb-bottom .light-blue-dots {
-    width: 80%;
-  }
-
-  .pb-bottom .light-blue-dots svg {
-    margin-top: -11rem;
-    margin-left: -13rem;
-  }
-}
+} */
