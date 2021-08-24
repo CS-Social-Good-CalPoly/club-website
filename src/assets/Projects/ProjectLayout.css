@@ -34,12 +34,16 @@ body {
 @media screen and (max-width: 640px) {
     .project-layout-container {
       transform: scale(0.8);
+      margin-top: -13rem;
+      margin-bottom: -7rem;
     }
 }
 
 @media screen and (max-width: 400px) {
     .project-layout-container {
       transform: scale(0.7);
+      margin-top: -18rem;
+      margin-bottom: -11rem;
     }
 }
 
