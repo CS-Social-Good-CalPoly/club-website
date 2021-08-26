@@ -2,7 +2,6 @@ import React from 'react'
 import '../../assets/Officers/Officers.css';
 import OfficerBanner from './OfficerBanner';
 import OfficerLayout from './OfficerLayout';
-import Footer from '../SharedComponents/Footer';
 import srirag_photo from "../../images/srirag.jpg";
 
 export default function Officers() {
