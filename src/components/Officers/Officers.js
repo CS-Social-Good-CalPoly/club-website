@@ -82,10 +82,9 @@ export default function Officers() {
     ]
 
     return (
-        <div>      
+        <div>
             <OfficerBanner/>
             <OfficerLayout cardInfo={cards}/>
-            <Footer/>
         </div>
     )
 }

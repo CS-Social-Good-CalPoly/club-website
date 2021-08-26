@@ -76,7 +76,7 @@
 }
 
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
   html, body {
     max-width: 100%;
     overflow-x: hidden;

@@ -11,7 +11,7 @@ const Banner = () => {
 const final = () => {
     return(
         <>
-        <Banner />
+        {/*<Banner />*/}
         </>
     ) 
 }

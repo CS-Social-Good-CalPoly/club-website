@@ -37,7 +37,7 @@
     margin-right: 0;
 }
 
-@media screen and (max-width : 1500px) {
+@media screen and (max-width: 1500px) {
     .officerbanner-container {
         margin-top: -10em;
     }
@@ -51,7 +51,7 @@
     */
 }
 
-@media screen and (max-width : 1200px) {
+@media screen and (max-width: 1200px) {
     .officerbanner-container {
         margin-top: -8em;
     }
@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (max-width : 900px) {
+@media screen and (max-width: 900px) {
     .officerbanner-container {
         margin-top: -6.5em;
         background-image: url('../../images/background-shapes-mobile.svg');
@@ -68,7 +68,7 @@
 }
 
   
-@media screen and (min-width : 0px) and (max-width : 640px) {
+@media screen and (min-width : 0px) and (max-width: 640px) {
     .officerbanner {
         display: flex;
         flex-wrap: wrap;
