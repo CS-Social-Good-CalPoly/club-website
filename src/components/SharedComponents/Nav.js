@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/SharedAssets/Nav.css';
 import logoDesktop from '../../images/CSSG.svg';
-import logoMobile from '../../images/logo-mobile.svg';
+// import logoMobile from '../../images/logo-mobile.svg';
 import menu from '../../images/menu_24px.svg';
 import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
@@ -12,7 +12,7 @@ export default function Nav() {
     return (
         <div>
             <nav className="nav-bar" >
-                <li style= {{ 'list-style' : 'none' }}>
+                <li style= {{ 'listStyle' : 'none' }}>
                     <Link to ="/WhatWeDo">
                         <img 
                             className="logo" 
@@ -33,7 +33,7 @@ export default function Nav() {
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}
-                <li style= {{ 'list-style' : 'none'}}><img onClick={()=>setOpen(!open)} className="burger" src= {menu} alt="menu" /></li> 
+                <li style= {{ 'listStyle' : 'none'}}><img onClick={()=>setOpen(!open)} className="burger" src= {menu} alt="menu" /></li> 
             </nav>
         </div>
     )

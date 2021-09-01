@@ -1,21 +1,32 @@
 import React from 'react';
 import ProjectBanner from './ProjectBanner.js';
-import ProjectCard from './ProjectCard.js';
+import ProjectLayout from './ProjectLayout.js';
 import '../../assets/Projects/Projects.css';
-import default_photo from '../../images/project-card-default.png';
+import photo from '../../images/project-card-default.png';
+import Footer from '../SharedComponents/Footer';
 
 export default function Projects() {
+    const cards = [ 
+        {
+            'title': 'RE Cares',
+            // 'techStack': 'MERN',
+            'url': photo,
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies.',
+            'openApp': "Applications open September 20, 2021"   
+        },
+        {
+            'title': 'Club Website',
+            // 'techStack': 'MERN',
+            'url': photo,
+            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies.',
+            'openApp': "Applications open September 20, 2021"
+        }
+    ];
     return (
         <div>
             <ProjectBanner/>
-            <ProjectCard
-                title="Vera"
-                //techStack="MongoDB, Express.js, React and Node.js" 
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies."
-                url={default_photo}
-                openApp="Applications open September 20, 2021"
-            />
+            <ProjectLayout cardInfo={cards}/>
+            <Footer/>
         </div>
     )
-
-}
+};

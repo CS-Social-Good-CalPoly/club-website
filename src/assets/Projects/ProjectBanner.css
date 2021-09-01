@@ -2,21 +2,27 @@
 
 .pb-container {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: center;
   background: var(--light-green);
-  padding-top: 100px;
+  z-index: 10;
+  /* background-color: aqua; */
+  margin-top: -3rem;
 }
 
 .project-banner {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 
 .pb-container-left {
-  width: 50%;
   display: flex;
-  flex-direction: column;
-  text-align: right;
-  padding-left: 20%;
+  flex-direction: row;
+  justify-content: flex-end;
+  z-index: 20;
+}
+
+.all-text { 
+  background-color: none;
 }
 
 .applications {
@@ -26,27 +32,49 @@
 }
 
 .pb-container-right {
-  width: 55%;
-  text-align: left
+  display: flex;
+  /* background-color: aqua; */
 }
 
 .pb-container-right img {
-  max-width: 520px;
-  min-width: 450px;
-  width: 70%;
-  position: relative;
+  max-width: 500px;
   z-index: 2;
-  margin-top: -7.5rem;
 }
 
-.pb-container-right .light-blue-dots {
-  margin-left: 20rem;
-  margin-top: -1rem;
-  width: 50%;
+.light-blue-dots svg {
+  opacity: 60%;
 }
 
-.pb-container-right .light-blue-dots svg {
-  width: 100%;
+.light-blue-dots svg ellipse {
+  z-index: 100;
+  /* background-color: aqua; */
+}
+
+.pb-top .light-blue-dots {
+  /* width: 100%; */
+  background-color: var(--light-green);
+  z-index: -100;
+}
+
+.pb-bottom .light-blue-dots {
+  /* width: 25%; */
+  display: flex;
+  justify-content: flex-start;
+  z-index: -100;
+  padding-top: 1.4rem;
+}
+
+.pb-top .light-blue-dots svg {
+  margin-top: 2rem;
+  margin-left: 56rem;
+  overflow: hidden;
+  /* margin-left: 20rem; */
+}
+
+.pb-bottom .light-blue-dots svg {
+  z-index: 100;
+  margin-top: -13rem;
+  margin-left: 14rem;
 }
 
 .pb-container-left .featured-project {
@@ -57,75 +85,224 @@
 
 .pb-bottom .waves {
   overflow: visible !important;
-  margin-top: -20px;
+  padding-top: -2rem;
+  /* margin-top: 0; */
   position: relative;
   z-index: -1;
 }
 
-.pb-bottom .light-blue-dots {
-  width: 25%;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.pb-bottom .light-blue-dots svg {
-  margin-top: -10rem;
-  /*margin-left: -100px;*/
+.pb-top .light-blue-dots {
   overflow: hidden;
-  width: 100%;
 }
 
+@media screen and (max-width: 1700px) {
 
-@media screen and (max-width: 640px){
-  html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+  .pb-container-left, .pb-container-right, 
+  .light-blue-dots svg {
+    transform: scale(0.9);
+  }
+
+}
+
+@media screen and (max-width: 1580px) {
+  .pb-bottom .light-blue-dots svg {
+    margin-left: 10rem;
+    margin-top: -13rem;
   }
 
   .pb-container {
-    flex-direction: column-reverse;
-    padding-top: 0;
-    padding-bottom: 50px;
+    margin-top: -5rem;
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+ 
+  .pb-container-left, .pb-container-right, 
+  .light-blue-dots svg {
+    transform: scale(0.8);
   }
 
   .pb-container-left {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-items: flex-end;
+    margin-left: 50px;
+    margin-right: -40px;
+  }
+
+  .pb-container {
+    margin-top: -6rem;
   }
 
   .pb-container-right {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin-right: 50px;
   }
 
-  .pb-container-right img {
-    margin: auto;
-    margin-bottom: 30px;
+  .pb-top .light-blue-dots svg {
+    margin-left: 50rem;
   }
-
-  .pb-container-right .light-blue-dots {
-    margin: auto;
-    margin-bottom: -4rem;
-    /* margin-right: -10rem; */
-    width: 80%;
-  }
-
-  .pb-container .call-to-action {
-    align-items: flex-start;
-  }
+  .pb-bottom .light-blue-dots svg {
+    margin-left: 5rem;
+    margin-top: -8rem;
+  } 
 
   .pb-bottom .waves {
-    padding-top: 50px;
+    margin-top: -1.5rem;
+    margin-bottom: -4rem;
   }
 
-  .pb-bottom .light-blue-dots {
-    width: 80%;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .pb-container {
+    margin-top: -7rem;
+  }
+  
+  .pb-top .light-blue-dots svg {
+    margin-left: 40rem;
   }
 
   .pb-bottom .light-blue-dots svg {
-    margin-top: -11rem;
-    margin-left: -13rem;
-  }
+    margin-left: 2rem;
+  } 
+
 }
+
+@media screen and (max-width: 860px) {
+
+  .pb-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+  }
+
+  .pb-container-left, .pb-container-right {
+    margin: 0;
+  }
+
+  .pb-container-right {
+    margin: -1.8rem 0;
+  }
+
+  .pb-container-right img {
+    transform: scale(0.9);
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+    margin-left: 20rem;
+  }
+
+  .pb-bottom .light-blue-dots svg {
+    margin-top: -10rem;
+    margin-left: 1rem;
+  }
+
+  .call-to-action {
+    align-items: flex-start;
+  }
+
+  .call-to-action p, .call-to-action h2 {
+    text-align: left;
+  }
+
+  .pb-bottom .waves {
+    margin-bottom: -2rem;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .pb-container-left, .pb-container-right {
+    margin: 0;
+  }
+
+  .pb-container-left {
+    margin-bottom: 3rem;
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-top: -0.2rem;
+  }
+
+  .pb-container {
+    height: 38rem;
+    overflow: hidden;
+    /* margin-bottom: -4rem; */
+  }
+
+  .pb-container-right img {
+    transform: scale(0.9);
+    margin-bottom: -2.5rem;
+  }
+
+  .pb-top .light-blue-dots svg {
+    margin-left: 10rem;
+  }
+
+  .pb-bottom .light-blue-dots svg {
+    margin-left: -6rem;
+    margin-top: -7rem;
+  }
+
+  .pb-bottom .waves {
+    margin-bottom: -4rem;
+  }
+
+  .call-to-action h2 {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media screen and (max-width: 490px) {
+
+  .pb-container {
+    margin-top: -4rem;
+  }
+
+  .pb-bottom .waves {
+    margin-top: 0;
+    margin-bottom: -4rem;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+
+  .all-text {
+    max-width: 24rem;
+  }
+
+  .pb-container-right img {
+    transform: scale(0.8);
+    margin-bottom: -4rem;
+  }
+
+  .pb-container {
+    margin-bottom: 0;
+  }
+
+  .pb-bottom .light-blue-dots svg {
+    margin-left: -6rem;
+    margin-top: -6rem;
+  }
+
+  .project-layout-container {
+    margin-top: -10rem;
+  }
+
+  .pb-bottom .waves {
+    margin-top: -0.5rem;
+  }
+
+}
+
