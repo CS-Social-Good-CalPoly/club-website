@@ -257,6 +257,10 @@
     margin-bottom: -4rem;
   }
 
+  .call-to-action h2 {
+    font-size: 1.8rem;
+  }
+
 }
 
 @media screen and (max-width: 490px) {
