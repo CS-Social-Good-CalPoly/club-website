@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
   .whiteblock {
     flex-direction: column-reverse;
   }

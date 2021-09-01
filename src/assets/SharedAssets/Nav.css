@@ -30,6 +30,10 @@ a {
   overflow-x: hidden;
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .nav-bar img {
@@ -72,7 +76,7 @@ nav .burger {
 }
 
 /* Mobile Phone Specific CSS should be placed here */
-@media screen and (max-width : 950px) {
+@media screen and (max-width: 950px) {
   
   nav .burger {
     transform: scale(1.2);
@@ -117,7 +121,7 @@ nav .burger {
 
 }
 
-@media screen and (max-width : 720px) {
+@media screen and (max-width: 720px) {
 
   nav .burger {
     transform: scale(1.2);
@@ -130,7 +134,7 @@ nav .burger {
 
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
 
   nav .logo {
     padding-right: 18rem;
@@ -142,7 +146,7 @@ nav .burger {
 
 }
 
-@media screen and (max-width : 500px) {
+@media screen and (max-width: 500px) {
 
   nav .logo {
     padding-right: 8rem;
@@ -150,7 +154,7 @@ nav .burger {
 
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width: 400px) {
 
   nav .logo {
     padding-right: 4rem;
@@ -163,7 +167,7 @@ nav .burger {
 }
 
 /*
-@media screen and (min-width : 0px) and  (max-width : 0px) {
+@media screen and (min-width : 0px) and  (max-width: 0px) {
   nav .burger {
     transform: scale(1.2);
     display: block;

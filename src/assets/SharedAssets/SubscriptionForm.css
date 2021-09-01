@@ -39,7 +39,7 @@
     margin-left: 10.5rem;
 }
 
-@media screen and (max-device-width: 860px){
+@media screen and (max-width: 860px){
 
     .mc-button {
         padding: 12px 20px; /* .3em 1.2em */
@@ -47,7 +47,7 @@
 
 }
 
-@media screen and (max-device-width: 640px){
+@media screen and (max-width: 640px){
     .mc-email{
         width: 90%; 
         min-width: 450px; 
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (max-device-width: 570px){
+@media screen and (max-width: 570px){
     .mc-email{
         min-width: 300px; 
         margin-left: 2%;
@@ -68,14 +68,14 @@
     }
 }
 
-@media screen and (max-device-width: 480px){
+@media screen and (max-width: 480px){
 
     .mc-button{
         margin-left: 17%;
     }
 }
 
-@media screen and (max-device-width: 380px){
+@media screen and (max-width: 380px){
     .mc-email{
         margin-left: -3%;
     }
@@ -84,7 +84,7 @@
     }
 }
 
-@media screen and (max-device-width: 330px){
+@media screen and (max-width: 330px){
     .mc-email{
         margin-left: -9%;
     }
