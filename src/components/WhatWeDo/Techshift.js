@@ -10,11 +10,7 @@ const TechShift = ({imageUrl}) => {
                 </div>
                 <div className="tsa-right">
                     <p>
-                    Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Ultrices ipsum, varius congue enim, 
-                    neque. Tincidunt nisl sit quisque nibh consequat 
-                    tempor, tortor ultricies.
-                    {/* We are partned with the Tech Shift Alliance, an organization that strives to empower students in using technology to serve our community. */}
+                    We are partnered with the Tech Shift Alliance, an organization that strives to empower students in using technology to serve our community. Find out more at <a href="https://techshift.org/what-we-do">techshift.org!</a>
                     </p> 
                 </div>
             </div>

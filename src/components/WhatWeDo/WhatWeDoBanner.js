@@ -13,7 +13,7 @@ const WhatWeDoBanner = () => {
                 <div className="wwdb-description">
                     <h2 className="upper">Welcome to Cal Poly SLO</h2>
                     <h2 className="lower">CS + Social Good.</h2>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices.
+                    <p> CS + Social Good encourages students to leverage technology for social good through thought provoking discussion, community, and meaningful projects.
                     </p>
                 </div>
             </div>

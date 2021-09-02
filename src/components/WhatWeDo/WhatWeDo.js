@@ -21,10 +21,7 @@ export default function WhatWeDo() {
             <BlueWaveBlock
                 imageUrl={project_photo}
                 title="Join our team"
-                text="Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Ultrices ipsum, varius congue enim, 
-                neque. Tincidunt nisl sit quisque nibh consequat 
-                tempor, tortor ultricies."
+                text="CS + Social Good is currently looking for a Communications VP and a Program and Events Officer to join our 2021-2022 officer team. These two positions are on the social side of our club, so if that appeals to you, don't hesitate to apply!"
                 buttonUrl={default_photo}
                 buttonText="Learn more"
                 buttonStyle={"filled"}

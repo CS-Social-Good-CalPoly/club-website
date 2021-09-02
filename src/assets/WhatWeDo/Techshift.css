@@ -26,6 +26,15 @@
     line-height: var(--p-line-height-desktop);
 }
 
+.tsa-right a {
+    color: var(--dark-blue);
+    font-weight: 500;
+}
+
+.tsa-right a:hover {
+    color: var(--dark-blue);
+}
+
 @media screen and (max-width: 1700px) {
     .tsa {
         transform: scale(0.9);
