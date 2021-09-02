@@ -27,9 +27,9 @@ export default function Nav() {
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>
                     <li><Link to ="/Projects">Projects</Link></li>
-                    <li><Link to ="/Calendar">Calendar</Link></li>
+                    <li><a href="https://calendar.google.com/">Calendar</a></li>
                     <li><Link to ="/Officers">Officers</Link></li>
-                    <li><Link to ="">Contact Us</Link></li>
+                    <li><a href="mailto:someone@yoursite.com">Contact Us</a></li>
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}

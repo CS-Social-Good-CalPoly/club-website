@@ -3,6 +3,7 @@ import '../../assets/Officers/Officers.css';
 import OfficerBanner from './OfficerBanner';
 import OfficerLayout from './OfficerLayout';
 import srirag_photo from "../../images/srirag.jpg";
+import '../../assets/Officers/Officers.css';
 
 export default function Officers() {
     const cards = [
@@ -81,7 +82,7 @@ export default function Officers() {
     ]
 
     return (
-        <div>
+        <div className="officers">
             <OfficerBanner/>
             <OfficerLayout cardInfo={cards}/>
         </div>

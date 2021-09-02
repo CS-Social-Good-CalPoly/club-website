@@ -3,7 +3,6 @@ import ProjectBanner from './ProjectBanner.js';
 import ProjectLayout from './ProjectLayout.js';
 import '../../assets/Projects/Projects.css';
 import photo from '../../images/project-card-default.png';
-import Footer from '../SharedComponents/Footer';
 
 export default function Projects() {
     const cards = [ 
@@ -23,10 +22,9 @@ export default function Projects() {
         }
     ];
     return (
-        <div>
+        <div className="projects">
             <ProjectBanner/>
             <ProjectLayout cardInfo={cards}/>
-            <Footer/>
         </div>
     )
 };
