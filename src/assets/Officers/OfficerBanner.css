@@ -1,7 +1,6 @@
 @import "../SharedAssets/Styles.css";
 
 .officerbanner-container {
-    margin-top: -13em;
     position: relative;
     background-image: url('../../images/background-shapes-desktop.svg');
     /*background-size: 100% 80px;*/
@@ -27,7 +26,8 @@
 .officerbanner {
     position: relative;
     display: flex;
-    margin-top: 10%;
+    /*the height of navbar is constant 70 px so we shift it 70*/
+    margin-top: 70px;
     z-index: -1;
     background-color: var(--light-green);
     padding: 20px;
