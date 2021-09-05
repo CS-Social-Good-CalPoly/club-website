@@ -79,7 +79,6 @@
         padding-left: 10%;
         padding-right: 10%;
         display: flex;
-       don't need `flex-direction: column-reverse` at this width
     }
 
 }
@@ -90,7 +89,6 @@
         padding-left: 8%;
         padding-right: 8%;
         display: flex;
-        don't need `flex-direction: column-reverse` at this width
     }
 
     .whitewaveblock-cta {
@@ -118,7 +116,6 @@
     .whitewaveblock {
         padding-top: 2.5rem;
         display: flex;
-        don't need `flex-direction: column-reverse` at this width
     }
 
 }
