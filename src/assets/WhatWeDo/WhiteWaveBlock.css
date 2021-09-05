@@ -133,14 +133,6 @@
         margin-right: 0;
         display: flex;
         flex-direction: column-reverse;
-        /*
-        position: relative;
-        display: flex;
-        margin-top: 0px;
-        z-index: -1;
-        background-color: #CAF0F8;
-        padding: 20px;
-        */
     }
 
     .break {
@@ -171,7 +163,6 @@
     .whitewaveblock {
         height: 490px;
         display: flex;
-        flex-direction: column-reverse;
     }
 
     .whitewaveblock-wave {
@@ -185,7 +176,6 @@
     .whitewaveblock {
         height: 450px;
         display: flex;
-        flex-direction: column-reverse;
     }
 
 }
