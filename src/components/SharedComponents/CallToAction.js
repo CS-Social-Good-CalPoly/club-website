@@ -11,7 +11,7 @@ const CallToAction = ({ title, text, buttonUrl, buttonText, buttonStyle }) => {
                 <p>{text}</p>
             </div>
             {buttonStyle === "filled" && <FilledButton url={buttonUrl} text={buttonText}/>}
-            {buttonStyle === "unfilled" && <UnfillButton url={buttonUrl} text={buttonText}/>}
+            {/* {buttonStyle === "unfilled" && <UnfillButton url={buttonUrl} text={buttonText}/>} */}
         </div>
     )
 }

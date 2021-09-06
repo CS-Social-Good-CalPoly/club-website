@@ -23,7 +23,7 @@ export default function WhatWeDo() {
             <BlueWaveBlock
                 imageUrl={project_photo}
                 title="Join our team"
-                text="CS + Social Good is currently looking for a Communications VP and a Program and Events Officer to join our 2021-2022 officer team. These two positions are on the social side of our club, so if that appeals to you, don't hesitate to apply!"
+                text="We are currently looking for a Communications VP and a Program and Events Officer to join our 2021-2022 officer team. These two positions are on the social side of our club, so if that appeals to you, don't hesitate to apply!"
                 buttonUrl={default_photo}
                 buttonText="Learn more"
                 buttonStyle={"filled"}
@@ -31,12 +31,9 @@ export default function WhatWeDo() {
             <WhiteWaveBlock
                 imageUrl={whatwedo_photo}
                 title="What we do"
-                text="Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit. Ultrices ipsum, varius congue enim, 
-                neque. Tincidunt nisl sit quisque nibh consequat 
-                tempor, tortor ultricies."
+                text="At the start of the school year, we open up applications for students can fill out an application to join a project team, where they'll have the opportunity to embody our school's 'Learn By Doing' mantra while working on a web development project in a team setting. We have projects fit for all skill levels, and we also hold workshops and social events where you can learn new skills and connect with fellow club members."
                 buttonUrl={default_photo}
-                buttonText="Learn more"
+                buttonText="View our projects"
                 buttonStyle={"filled"}
             />
             <BlueNewsletterSubBox/>

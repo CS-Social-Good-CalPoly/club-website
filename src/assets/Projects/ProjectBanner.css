@@ -205,14 +205,6 @@
     margin-left: 1rem;
   }
 
-  .call-to-action {
-    align-items: flex-start;
-  }
-
-  .call-to-action p, .call-to-action h2 {
-    text-align: left;
-  }
-
   .pb-bottom .waves {
     margin-bottom: -2rem;
   }
