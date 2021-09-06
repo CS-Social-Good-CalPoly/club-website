@@ -161,7 +161,6 @@
 @media screen and (max-width: 750px) {
 
     .whitewaveblock {
-        height: 490px;
         display: flex;
     }
 
@@ -174,7 +173,6 @@
 @media screen and (max-width: 640px) {
 
     .whitewaveblock {
-        height: 450px;
         display: flex;
     }
 
