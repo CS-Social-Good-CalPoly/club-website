@@ -1,8 +1,8 @@
 @import "../SharedAssets/Styles.css";
 
 .blue-newsletter {
-  background-color: white; 
-  /* background: var(--light-gray); */
+  /*background-color: white;*/ 
+  background: var(--light-gray);
   background-image: url('../../images/background-shapes-desktop.svg');
   height: 380px;
 }
