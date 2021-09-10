@@ -31,7 +31,7 @@ export default function WhatWeDo() {
             <WhiteWaveBlock
                 imageUrl={whatwedo_photo}
                 title="What we do"
-                text="At the start of the school year, we open up applications for students can fill out an application to join a project team, where they'll have the opportunity to embody our school's 'Learn By Doing' mantra while working on a web development project in a team setting. We have projects fit for all skill levels, and we also hold workshops and social events where you can learn new skills and connect with fellow club members."
+                text="At the start of every school year, we open up member applications for students who are interested in joining one of our project teams. We have projects fit for all skill levels, and we also hold workshops and social events where you can learn new skills and connect with fellow club members."
                 buttonUrl={default_photo}
                 buttonText="View our projects"
                 buttonStyle={"filled"}
