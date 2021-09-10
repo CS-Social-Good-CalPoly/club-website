@@ -37,6 +37,8 @@
     font-size: var(--button);
     align-self: center;
     margin-left: 10.5rem;
+    font-weight: var(--custom-btn);
+    letter-spacing: 0.02rem;
 }
 
 @media screen and (max-width: 860px){
