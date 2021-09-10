@@ -16,8 +16,8 @@
     margin-top: 0px;
     z-index: -1;
     background-color: var(--light-gray);
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 18%;
+    padding-right: 22%;
     padding-top: 4.5rem;
 }
 
@@ -66,7 +66,7 @@
     .bluewaveblock-wave {
         position: relative;
         margin-top: -6em;
-        z-index: -10;
+        z-index: -100;
     }
 
 }

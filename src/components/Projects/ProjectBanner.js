@@ -4,7 +4,6 @@ import Waves from '../SharedComponents/Waves';
 import Dots from '../SharedComponents/Dots';
 import CallToAction from '../SharedComponents/CallToAction';
 import image from '../../images/vera.png';
-import FilledButton from '../SharedComponents/FilledButton';
 
 const ProjectBanner = () => {
     return (
@@ -33,7 +32,6 @@ const ProjectBanner = () => {
                     </div>
                 </div>
                 <div className="pb-container-right">
-                    {/* <Dots color="light-blue" /> */}
                     <img src={image} alt="default project"/>
                 </div>
             </div>

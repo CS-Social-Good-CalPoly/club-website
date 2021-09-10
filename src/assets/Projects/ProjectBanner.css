@@ -10,6 +10,10 @@
   margin-top: -3rem;
 }
 
+button.btn-unfilled {
+  background-color: var(--light-green);
+}
+
 .project-banner {
   margin-bottom: 120px;
 }

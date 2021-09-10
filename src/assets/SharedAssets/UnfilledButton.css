@@ -13,6 +13,8 @@ button.btn-unfilled a {
   text-decoration: none;
   color: var(--navy-blue);
   font-size: var(--button); /* 1.2 rem */
+  font-weight: var(--custom-btn);
+  letter-spacing: 0.02rem;
 }
 
 @media screen and (max-width: 860px){

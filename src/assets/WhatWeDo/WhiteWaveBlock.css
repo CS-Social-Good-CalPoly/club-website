@@ -107,11 +107,6 @@
 }
 
 @media screen and (max-width: 1100px) {
-/*
-    .whitewaveblock-wave {
-        margin-top: -10em;
-    }
-*/
 
     .whitewaveblock {
         padding-top: 2.5rem;
@@ -119,8 +114,6 @@
     }
 
 }
-
-/* 860 */
 
 @media screen and (max-width: 860px) {
 
@@ -160,20 +153,8 @@
 
 @media screen and (max-width: 750px) {
 
-    .whitewaveblock {
-        display: flex;
-    }
-
     .whitewaveblock-wave {
         margin-top: -1em;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-
-    .whitewaveblock {
-        display: flex;
     }
 
 }
