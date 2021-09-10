@@ -3,7 +3,7 @@ import '../../assets/Projects/ProjectBanner.css'
 import Waves from '../SharedComponents/Waves'
 import Dots from '../SharedComponents/Dots'
 import CallToAction from '../SharedComponents/CallToAction'
-import image from '../../images/project-team-photo.png';
+import image from '../../images/vera.png';
 
 const ProjectBanner = () => {
     return (
@@ -17,7 +17,7 @@ const ProjectBanner = () => {
                         <h2 className="featured-project">FEATURED PROJECT</h2>
                         <CallToAction 
                             title="Vera"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies. "    
+                            text="A student-designed website centered on the goal of making mental health resources more accessible to Cal Poly students. Applicants should have some prior experience with React and a basic understanding of databases."    
                             // buttonUrl="/Projects"
                             // buttonText="Learn More"
                             // buttonStyle="unfilled"
