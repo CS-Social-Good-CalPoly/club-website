@@ -1,0 +1,75 @@
+@import "../SharedAssets/Styles.css";
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.116);  
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.navbar-light .navbar-toggler {
+    color: var(--dark-green);
+    border-color: var(--dark-green);
+    border-width: 0;
+}
+
+.navbar-toggler-icon {
+    width: 3em;
+    height: 2.2em;
+    color: var(--dark-green);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/src/images/menu_24px.svg);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark-green);
+    font-weight: var(--custom-bold);
+    margin-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--dark-green);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    right: 0;
+    position: absolute;
+    width: 73rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .navbar-expand-lg .navbar-collapse {
+        width: 47rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .navbar-light .navbar-nav .nav-link {
+        border: 2px solid white;
+        background-color: var(--light-gray);
+        margin: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        background-color: var(--light-green);
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        margin: 0;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        position: relative;
+    }
+
+}
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 100%;
+    }
+}
