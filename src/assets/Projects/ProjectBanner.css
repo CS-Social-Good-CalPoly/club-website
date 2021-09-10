@@ -19,7 +19,6 @@
   flex-direction: row;
   justify-content: flex-end;
   z-index: 20;
-  /* position: relative; */
 }
 
 .all-text { 
@@ -42,13 +41,8 @@
   z-index: 2;
 }
 
-/* .light-blue-dots {
-  z-index: -100;
-} */
-
 .light-blue-dots svg {
   opacity: 60%;
-  /* position: absolute; */
 }
 
 .pb-top .light-blue-dots {
@@ -65,7 +59,7 @@
 }
 
 .pb-top .light-blue-dots svg {
-  margin-top: 2rem;
+  margin-top: 1.4rem;
   margin-left: 56rem;
   overflow: hidden;
   /* margin-left: 20rem; */
@@ -179,6 +173,7 @@
     justify-content: center;
     align-items: center;
     margin-top: -5rem;
+    margin-bottom: 1rem;
   }
 
   .pb-container-left .featured-project {
