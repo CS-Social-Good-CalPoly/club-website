@@ -14,7 +14,7 @@ const Footer = () => {
                    target="_blank" rel="noopener noreferrer">
                     <img src={discord} alt="discord"/>
                 </a>
-                <a href="https://www.facebook.com/CSSGCalPoly/" className="socialmedia-child"
+                <a href="https://www.facebook.com/groups/406614513472946" className="socialmedia-child"
                    target="_blank" rel="noopener noreferrer">
                     <img src={facebook} alt="facebook"/>
                 </a>
