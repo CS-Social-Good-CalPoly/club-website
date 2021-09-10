@@ -6,6 +6,7 @@ import menu from '../../images/menu_24px.svg';
 import { Link } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 import { useState } from 'react';
+import CustomContactUs from "../ContactUs/CustomContactUs";
 
 export default function Nav() {
     const [open, setOpen] = useState(false);
@@ -13,7 +14,7 @@ export default function Nav() {
         <div>
             <nav className="nav-bar" >
                 <li style= {{ 'listStyle' : 'none' }}>
-                    <Link to ="/WhatWeDo">
+                    <Link to ="/">
                         <img 
                             className="logo" 
                             src= {logoDesktop} 
@@ -29,7 +30,8 @@ export default function Nav() {
                     <li><Link to ="/Projects">Projects</Link></li>
                     <li><a href="https://calendar.google.com/">Calendar</a></li>
                     <li><Link to ="/Officers">Officers</Link></li>
-                    <li><a href="mailto:someone@yoursite.com">Contact Us</a></li>
+                    {/*<li><a href="mailto:csplusgoodcalpoly@gmail.com">Contact Us</a></li>*/}
+                    <CustomContactUs label="Contact Us" mailto="mailto:csplusgoodcalpoly@gmail.com" />
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}
