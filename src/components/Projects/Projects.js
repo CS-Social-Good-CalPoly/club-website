@@ -13,14 +13,18 @@ export default function Projects() {
             // 'techStack': 'MERN',
             'url': reCares,
             'description': 'A project where an international group of students and professionals collaborate on designing and implementing a software project for a charitable cause. Participants will be able to attend the conference which will be hosted in South Bend, Indiana from September 20-24th either virtually or in person.',
-            'openApp': "Applications open September 20, 2021"   
+            // 'openApp': "Applications open September 20, 2021",
+            'buttonUrl': "blah",
+            'buttonText': "Learn more"
         },
         {
             'title': 'Club Website',
             // 'techStack': 'MERN',
             'url': clubWebsite,
             'description': 'Our official club website where students can explore our current projects, see upcoming workshops / social events, and meet our team. Applicants do not need any prior web development experience.',
-            'openApp': "Applications open September 20, 2021"
+            // 'openApp': "Applications open September 20, 2021",
+            'buttonUrl': "blah",
+            'buttonText': "Learn more"
         }
     ];
     return (

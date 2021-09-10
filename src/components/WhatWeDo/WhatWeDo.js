@@ -24,17 +24,17 @@ export default function WhatWeDo() {
                 imageUrl={project_photo}
                 title="Join our team"
                 text="We are currently looking for a Communications VP and a Program and Events Officer to join our 2021-2022 officer team. These two positions are on the social side of our club, so if that appeals to you, don't hesitate to apply!"
-                buttonUrl={default_photo}
+                buttonUrl="blah"
                 buttonText="Learn more"
-                buttonStyle={"filled"}
+                buttonStyle="filled"
             />
             <WhiteWaveBlock
                 imageUrl={whatwedo_photo}
                 title="What we do"
                 text="At the start of every school year, we open up member applications for students who are interested in joining one of our project teams. We have projects fit for all skill levels, and we also hold workshops and social events where you can learn new skills and connect with fellow club members."
-                buttonUrl={default_photo}
+                buttonUrl="Projects"
                 buttonText="View our projects"
-                buttonStyle={"filled"}
+                buttonStyle="filled"
             />
             <BlueNewsletterSubBox/>
         </div>

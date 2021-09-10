@@ -1,9 +1,10 @@
-import React from 'react'
-import '../../assets/Projects/ProjectBanner.css'
-import Waves from '../SharedComponents/Waves'
-import Dots from '../SharedComponents/Dots'
-import CallToAction from '../SharedComponents/CallToAction'
+import React from 'react';
+import '../../assets/Projects/ProjectBanner.css';
+import Waves from '../SharedComponents/Waves';
+import Dots from '../SharedComponents/Dots';
+import CallToAction from '../SharedComponents/CallToAction';
 import image from '../../images/vera.png';
+import FilledButton from '../SharedComponents/FilledButton';
 
 const ProjectBanner = () => {
     return (
@@ -18,11 +19,17 @@ const ProjectBanner = () => {
                         <CallToAction 
                             title="Vera"
                             text="A student-designed website centered on the goal of making mental health resources more accessible to Cal Poly students. Applicants should have some prior experience with React and a basic understanding of databases."    
-                            // buttonUrl="/Projects"
-                            // buttonText="Learn More"
-                            // buttonStyle="unfilled"
+                            buttonUrl="blah"
+                            buttonText="Join this project team"
+                            buttonStyle="unfilled"
                         />
-                        <p className="applications">Applications open September 20, 2021</p>
+                        {/* ------- start ------- */}
+
+                        {/* don't delete this! this is meant to be commented in when application season is not open */}
+
+                        {/* <p className="applications">Applications open September 20, 2021</p> */}
+                        
+                        {/* ------- end ------- */}
                     </div>
                 </div>
                 <div className="pb-container-right">
