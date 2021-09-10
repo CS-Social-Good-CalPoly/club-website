@@ -22,7 +22,7 @@ export default function WhatWeDo() {
                 imageUrl={project_photo}
                 title="Join our team"
                 text="CS + Social Good is currently looking for a Communications VP and a Program and Events Officer to join our 2021-2022 officer team. These two positions are on the social side of our club, so if that appeals to you, don't hesitate to apply!"
-                buttonUrl={default_photo}
+                buttonUrl="https://forms.gle/kTbErSPkTQSjBxiC6"
                 buttonText="Learn more"
                 buttonStyle={"filled"}
             />
