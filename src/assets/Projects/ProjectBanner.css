@@ -182,6 +182,10 @@
     margin-top: -5rem;
   }
 
+  .pb-container-left .featured-project {
+    text-align: center;
+  }
+
   .pb-container-left, .pb-container-right {
     margin: 0;
   }
