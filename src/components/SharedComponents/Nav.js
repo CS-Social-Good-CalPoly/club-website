@@ -27,7 +27,10 @@ export default function Nav() {
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>
                     <li><Link to ="/Projects">Projects</Link></li>
-                    <li><a href="https://calendar.google.com/">Calendar</a></li>
+                    <li>
+                        <a href="https://calendar.google.com/calendar/u/8?cid=a3JyY2VmMGY2ZmYwZmVwaDl0NWJyM3RsOTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
+                        Calendar</a>
+                    </li>
                     <li><Link to ="/Officers">Officers</Link></li>
                     <li><a href="mailto:csplusgoodcalpoly@gmail.com">Contact Us</a></li>
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
