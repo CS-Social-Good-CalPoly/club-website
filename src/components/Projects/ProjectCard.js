@@ -1,8 +1,7 @@
 import React from 'react';
 import '../../assets/Projects/ProjectCard.css';
-import FilledButton from '../SharedComponents/FilledButton';
 
-const ProjectCard = ({title, url, description, openApp, buttonUrl}) => {
+const ProjectCard = ({title, url, description, openApp}) => {
   /**
    * Props: 
    *  title: Title of the card
@@ -17,8 +16,6 @@ const ProjectCard = ({title, url, description, openApp, buttonUrl}) => {
         <h2>{title}</h2>
         <p>{description}</p>
         <h3>{openApp}</h3>
-        {/*<FilledButton*/}
-        {/*    url={buttonUrl} text="Join this project team"/>*/}
       </div>
     </div>
   )
