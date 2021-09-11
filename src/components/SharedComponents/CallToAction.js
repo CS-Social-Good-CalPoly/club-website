@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../assets/SharedAssets/CallToAction.css'
 import FilledButton from './FilledButton'
-import UnfilledButton from './UnfilledButton'
+import UnfillButton from './UnfillButton'
 
 const CallToAction = ({ title, text, buttonUrl, buttonText, buttonStyle }) => {
     return (
@@ -10,10 +10,8 @@ const CallToAction = ({ title, text, buttonUrl, buttonText, buttonStyle }) => {
             <div className="cta-text">
                 <p>{text}</p>
             </div>
-            {buttonStyle == "filled" 
-                ? (<FilledButton url={buttonUrl} text={buttonText}/>) 
-                : (<UnfilledButton url={buttonUrl} text={buttonText}/>)
-            }
+            {buttonStyle === "filled" && <FilledButton url={buttonUrl} text={buttonText}/>}
+            {buttonStyle === "unfilled" && <UnfillButton url={buttonUrl} text={buttonText}/>}
         </div>
     )
 }

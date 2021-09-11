@@ -1,33 +1,33 @@
 @import "../SharedAssets/Styles.css";
 
-.greywaveblock-container {
+.bluewaveblock-container {
     position: relative;
     z-index: -10;
 }
 
-.greywaveblock .greywaveblock-wave {
+.bluewaveblock .bluewaveblock-wave {
     width: 100%;
     height: 100%;
 }
 
-.greywaveblock {
+.bluewaveblock {
     position: relative;
     display: flex;
     margin-top: 0px;
     z-index: -1;
     background-color: var(--light-gray);
-    padding-left: 18%;
-    padding-right: 22%;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 4.5rem;
 }
 
-.greywaveblock img {
+.bluewaveblock img {
     width: 80%;
     max-width: 520px;
     min-width: 450px;
 }
 
-.greywaveblock-img {
+.bluewaveblock-img {
     padding-left: 0.2rem;
     width: 60%;
     display: flex;
@@ -35,14 +35,14 @@
     align-items: center;
 }
 
-.greywaveblock-cta {
+.bluewaveblock-cta {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.greywaveblock-wave {
+.bluewaveblock-wave {
     position: relative;
     margin-top: -10em;
     z-index: -10;
@@ -54,26 +54,26 @@
 
 @media screen and (max-width: 1700px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         padding-left: 18%;
         padding-right: 18%;
     }
 
-    .greywaveblock-cta {
+    .bluewaveblock-cta {
         transform: scale(0.9);
     }
 
-    .greywaveblock-wave {
+    .bluewaveblock-wave {
         position: relative;
         margin-top: -6em;
-        z-index: -100;
+        z-index: -10;
     }
 
 }
 
 @media screen and (max-width: 1450px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -82,20 +82,20 @@
 
 @media screen and (max-width: 1300px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         padding-left: 8%;
         padding-right: 8%;
     }
 
-    .greywaveblock-cta {
+    .bluewaveblock-cta {
         transform: scale(0.8);
     }
 
-    .greywaveblock-img {
+    .bluewaveblock-img {
         padding-left: 1rem;
     }
 
-    .greywaveblock img {
+    .bluewaveblock img {
         width: 80%;
         min-width: 400px;
     }
@@ -104,12 +104,12 @@
 
 @media screen and (max-width: 1100px) {
 /*
-    .greywaveblock-wave {
+    .bluewaveblock-wave {
         margin-top: -10em;
     }
 */
 
-    .greywaveblock {
+    .bluewaveblock {
         padding-top: 2.5rem;
     }
 
@@ -119,10 +119,9 @@
 
 @media screen and (max-width: 860px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         justify-content: center;
         margin-left: 0;
         margin-right: 0;
@@ -142,16 +141,16 @@
         height: 0;
     }
 
-    .greywaveblock-cta {
+    .bluewaveblock-cta {
         width: 100%;
         padding: 0;
     }
 
-    .greywaveblock-img {
+    .bluewaveblock-img {
         padding-left: 0;
     }
 
-    .greywaveblock-img img{
+    .bluewaveblock-img img{
         width: 80%;
         max-width: 250px;
         min-width: 160px;
@@ -161,11 +160,11 @@
 
 @media screen and (max-width: 750px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         height: 490px;
     }
 
-    .greywaveblock-wave {
+    .bluewaveblock-wave {
         margin-top: -1em;
     }
 
@@ -173,7 +172,7 @@
 
 @media screen and (max-width: 640px) {
 
-    .greywaveblock {
+    .bluewaveblock {
         height: 450px;
     }
 

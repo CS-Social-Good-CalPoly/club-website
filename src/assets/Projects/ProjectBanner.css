@@ -10,10 +10,6 @@
   margin-top: -3rem;
 }
 
-button.btn-unfilled {
-  background-color: var(--light-green);
-}
-
 .project-banner {
   margin-bottom: 120px;
 }
@@ -49,9 +45,15 @@ button.btn-unfilled {
   opacity: 60%;
 }
 
+.light-blue-dots svg ellipse {
+  z-index: 100;
+  /* background-color: aqua; */
+}
+
 .pb-top .light-blue-dots {
   /* width: 100%; */
   background-color: var(--light-green);
+  z-index: -100;
 }
 
 .pb-bottom .light-blue-dots {
@@ -63,13 +65,14 @@ button.btn-unfilled {
 }
 
 .pb-top .light-blue-dots svg {
-  margin-top: 1.4rem;
+  margin-top: 2rem;
   margin-left: 56rem;
   overflow: hidden;
   /* margin-left: 20rem; */
 }
 
 .pb-bottom .light-blue-dots svg {
+  z-index: 100;
   margin-top: -13rem;
   margin-left: 14rem;
 }
@@ -177,11 +180,6 @@ button.btn-unfilled {
     justify-content: center;
     align-items: center;
     margin-top: -5rem;
-    margin-bottom: 1rem;
-  }
-
-  .pb-container-left .featured-project {
-    text-align: center;
   }
 
   .pb-container-left, .pb-container-right {
@@ -205,6 +203,14 @@ button.btn-unfilled {
   .pb-bottom .light-blue-dots svg {
     margin-top: -10rem;
     margin-left: 1rem;
+  }
+
+  .call-to-action {
+    align-items: flex-start;
+  }
+
+  .call-to-action p, .call-to-action h2 {
+    text-align: left;
   }
 
   .pb-bottom .waves {

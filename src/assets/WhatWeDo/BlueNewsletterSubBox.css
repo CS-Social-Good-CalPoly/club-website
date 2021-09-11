@@ -1,19 +1,19 @@
 @import "../SharedAssets/Styles.css";
 
-.newsletter {
+.blue-newsletter {
   /*background-color: white;*/ 
   background: var(--light-gray);
   background-image: url('../../images/background-shapes-desktop.svg');
   height: 380px;
 }
 
-.newsletter div img {
+.blue-newsletter div img {
   float: right;
   z-index: -1;
   margin-top: -500px;
 }
 
-.news-container {
+.blue-news-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,7 +21,7 @@
   padding-bottom: 200px;
 }
 
-.newsletter h2 {
+.blue-newsletter h2 {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: var(--heading-one-desktop);
@@ -29,19 +29,19 @@
   color: var(--navy-blue);
 }
 
-.newsletter h4 {
+.blue-newsletter h4 {
   color: var(--dark-green);
   font-size: var(--body-one-desktop);
   margin: 0 auto 30px;
 }
 
-.newsletter #mc_embed_signup {
+.blue-newsletter #mc_embed_signup {
   background: transparent;
 }
 
 @media screen and (max-width: 1700px) {
 
-  .news-container {
+  .blue-news-container {
     transform: scale(0.9);
   }
 
@@ -49,49 +49,49 @@
 
 @media screen and (max-width: 1300px) {
 
-  .news-container {
+  .blue-news-container {
     transform: scale(0.8);
   }
 
 }
 
 @media screen and (max-width: 640px){
-  .newsletter {
+  .blue-newsletter {
     display: flex;
     justify-content: center;
     background-image: url('../../images/background-shapes-mobile.svg');
   }
 
-  .news-container {
+  .blue-news-container {
     width: 85%;
     padding-bottom: 100px;
   }
 
-  .newsletter form {
+  .blue-newsletter form {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
-  .newsletter #mc_embed_signup {
+  .blue-newsletter #mc_embed_signup {
     width: 100%;
   }
 
-  .news-container #mce-EMAIL {
+  .blue-news-container #mce-EMAIL {
     max-width: 95%;
   }
 
-  .newsletter .clear {
+  .blue-newsletter .clear {
     display: flex;
     justify-content: center;
   }
 
-  .newsletter h2 {
+  .blue-newsletter h2 {
     font-size: var(--heading-one-mobile);
   }
 
-  .newsletter h4 {
+  .blue-newsletter h4 {
     font-size: var(--body-one-mobile);
   }
 }

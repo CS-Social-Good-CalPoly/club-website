@@ -8,13 +8,12 @@ import Officers from './components/Officers/Officers';
 import Calendar from './components/Calendar/Calendar';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Footer from "./components/SharedComponents/Footer";
-import Nav2 from './components/SharedComponents/Nav2';
 
 function App() {
     return (
         <Router>
             <div className="App">
-                <Nav2/>
+                <Nav/>
                 <div className="App-Main-Content">
                     <Switch>
                         <Route exact path="/WhatWeDo" component={WhatWeDo}/>
