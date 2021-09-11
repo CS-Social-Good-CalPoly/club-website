@@ -1,9 +1,9 @@
-import React from 'react'
-import '../../assets/Projects/ProjectBanner.css'
-import Waves from '../SharedComponents/Waves'
-import Dots from '../SharedComponents/Dots'
-import CallToAction from '../SharedComponents/CallToAction'
-import image from '../../images/project-team-photo.png';
+import React from 'react';
+import '../../assets/Projects/ProjectBanner.css';
+import Waves from '../SharedComponents/Waves';
+import Dots from '../SharedComponents/Dots';
+import CallToAction from '../SharedComponents/CallToAction';
+import image from '../../images/vera.png';
 
 const ProjectBanner = () => {
     return (
@@ -15,18 +15,23 @@ const ProjectBanner = () => {
                 <div className="pb-container-left">
                     <div className="all-text">
                         <h2 className="featured-project">FEATURED PROJECT</h2>
-                        <CallToAction 
+                        <CallToAction
                             title="Vera"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices ipsum, varius congue enim, neque. Tincidunt nisl sit quisque nibh consequat tempor, tortor ultricies. "    
-                            // buttonUrl="/Projects"
-                            // buttonText="Learn More"
-                            // buttonStyle="unfilled"
+                            text="A student-designed website centered on the goal of making mental health resources more accessible to Cal Poly students. Applicants should have some prior experience with React and a basic understanding of databases."
+                            buttonUrl=""
+                            buttonText="Join this project team"
+                            buttonStyle="unfilled"
                         />
-                        <p className="applications">Applications open September 20, 2021</p>
+                        {/* ------- start ------- */}
+
+                        {/* don't delete this! this is meant to be commented in when application season is not open */}
+
+                         <p className="applications">Applications open September 20, 2021</p>
+                        
+                        {/* ------- end ------- */}
                     </div>
                 </div>
                 <div className="pb-container-right">
-                    {/* <Dots color="light-blue" /> */}
                     <img src={image} alt="default project"/>
                 </div>
             </div>

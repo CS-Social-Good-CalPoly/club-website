@@ -1,11 +1,11 @@
 import React from 'react'
-import '../../assets/WhatWeDo/BlueNewsletterSubBox.css'
+import '../../assets/WhatWeDo/NewsletterSubBox.css'
 import SubscriptionForm from '../SharedComponents/SubscriptionForm'
 
 const WhatWeDoMailingList = () => {
     return (
-        <div className="blue-newsletter">
-            <div className="blue-news-container">
+        <div className="newsletter">
+            <div className="news-container">
                 <h2>Wanna stay in the loop?</h2>
                 <h4>
                     <em>Get weekly club updates sent straight to your inbox.</em>
