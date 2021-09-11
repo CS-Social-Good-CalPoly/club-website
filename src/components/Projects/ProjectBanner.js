@@ -15,10 +15,10 @@ const ProjectBanner = () => {
                 <div className="pb-container-left">
                     <div className="all-text">
                         <h2 className="featured-project">FEATURED PROJECT</h2>
-                        <CallToAction 
+                        <CallToAction
                             title="Vera"
-                            text="A student-designed website centered on the goal of making mental health resources more accessible to Cal Poly students. Applicants should have some prior experience with React and a basic understanding of databases."    
-                            buttonUrl="blah"
+                            text="A student-designed website centered on the goal of making mental health resources more accessible to Cal Poly students. Applicants should have some prior experience with React and a basic understanding of databases."
+                            buttonUrl=""
                             buttonText="Join this project team"
                             buttonStyle="unfilled"
                         />
@@ -26,7 +26,7 @@ const ProjectBanner = () => {
 
                         {/* don't delete this! this is meant to be commented in when application season is not open */}
 
-                        {/* <p className="applications">Applications open September 20, 2021</p> */}
+                         <p className="applications">Applications open September 20, 2021</p>
                         
                         {/* ------- end ------- */}
                     </div>

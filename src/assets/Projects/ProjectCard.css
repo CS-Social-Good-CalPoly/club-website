@@ -6,7 +6,7 @@
   background: white;
   max-width: 32rem;
   min-width: 32rem;
-  height: fit-content;
+  min-height: 50em;
   /* border-radius: 0.4rem; */
   margin: 1rem;
   overflow: hidden;
