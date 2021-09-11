@@ -13,7 +13,7 @@ export default function Nav() {
         <div>
             <nav className="nav-bar" >
                 <li style= {{ 'listStyle' : 'none' }}>
-                    <Link to ="/WhatWeDo">
+                    <Link to ="/">
                         <img 
                             className="logo" 
                             src= {logoDesktop} 
@@ -27,9 +27,12 @@ export default function Nav() {
                     {/*<li><Link to ="/WhatWeDo">What We Do</Link></li>*/}
                     <li className="spacer"></li>
                     <li><Link to ="/Projects">Projects</Link></li>
-                    <li><a href="https://calendar.google.com/">Calendar</a></li>
+                    <li>
+                        <a href="https://calendar.google.com/calendar/u/8?cid=a3JyY2VmMGY2ZmYwZmVwaDl0NWJyM3RsOTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ">
+                        Calendar</a>
+                    </li>
                     <li><Link to ="/Officers">Officers</Link></li>
-                    <li><a href="mailto:someone@yoursite.com">Contact Us</a></li>
+                    <li><a href="mailto:csplusgoodcalpoly@gmail.com">Contact Us</a></li>
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}

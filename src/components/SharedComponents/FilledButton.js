@@ -1,11 +1,11 @@
 import React from "react";
 import '../../assets/SharedAssets/FilledButton.css';
 
-function FilledButton(props) {
+function FilledButton({text, url}) {
 
   return (
     <button className="btn-filled">
-      <a href={props.url}>{props.text}</a>  
+      <a href={url}>{text}</a>
     </button>
   );
 };
