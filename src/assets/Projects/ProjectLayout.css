@@ -19,7 +19,7 @@ body {
 
 @media screen and (max-width: 1300px) {
     .project-layout-container {
-        transform: scale(0.82);
+        transform: scale(0.80);
     }
 }
 

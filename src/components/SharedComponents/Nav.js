@@ -33,9 +33,7 @@ export default function Nav() {
                     {/*<li><img src={menu} alt="Logo"/></li>*/}
                 </ul>
                 {/* <li></li> */}
-                <li>
-                    <img onClick={()=>setOpen(!open)} className="burger" src= {menu} alt="menu" />
-                </li> 
+                <li style= {{ 'listStyle' : 'none'}}><img onClick={()=>setOpen(!open)} className="burger" src= {menu} alt="menu" /></li> 
             </nav>
         </div>
     )

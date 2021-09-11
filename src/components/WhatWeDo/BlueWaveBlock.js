@@ -1,18 +1,18 @@
 import React from 'react'
-import '../../assets/WhatWeDo/GreyWaveBlock.css'
+import '../../assets/WhatWeDo/BlueWaveBlock.css'
 import CallToAction from "../SharedComponents/CallToAction"
 import Waves from "../SharedComponents/Waves"
 
-const GreyWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonStyle}) => {
+const BlueWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonStyle}) => {
     return (
         <>
-            <div className="greywaveblock-container">
-                <div className="greywaveblock" >
-                    <div className="greywaveblock-img">
+            <div className="bluewaveblock-container">
+                <div className="bluewaveblock" >
+                    <div className="bluewaveblock-img">
                         <img src={imageUrl} alt=""/>
                     </div>
                     <div className="break"></div>
-                    <div className="greywaveblock-cta">
+                    <div className="bluewaveblock-cta">
                         <CallToAction 
                             title={title} 
                             text={text} 
@@ -21,8 +21,9 @@ const GreyWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonSty
                             buttonStyle={buttonStyle}
                         />
                     </div>
+                
                 </div>
-                <div className="greywaveblock-wave">
+                <div className="bluewaveblock-wave">
                     <Waves color='light-blue'/>
                 </div>
             </div>
@@ -30,4 +31,4 @@ const GreyWaveBlock = ({ imageUrl, title, text, buttonUrl, buttonText, buttonSty
     )
 }
 
-export default GreyWaveBlock
+export default BlueWaveBlock

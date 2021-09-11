@@ -13,8 +13,6 @@ const ProjectLayout = ({cardInfo}) => {
                         url={card.url}
                         description={card.description}
                         openApp={card.openApp}
-                        buttonText={card.buttonText}
-                        buttonUrl={card.buttonUrl}
                     />
                 ))
             }
